@@ -1,0 +1,1157 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1365344320484242}
+  m_IsPrefabAsset: 1
+--- !u!1 &1365344320484242
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4736042749659886}
+  - component: {fileID: 114870423723534976}
+  m_Layer: 0
+  m_Name: I2Languages
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4736042749659886
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1365344320484242}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114870423723534976
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1365344320484242}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 488051eaa73ba421e8fe4868f2e0f364, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  NeverDestroy: 0
+  UserAgreesToHaveItOnTheScene: 0
+  UserAgreesToHaveItInsideThePluginsFolder: 0
+  GoogleLiveSyncIsUptoDate: 1
+  Spreadsheet_LocalFileName: 
+  Spreadsheet_LocalCSVSeparator: ','
+  Spreadsheet_LocalCSVEncoding: utf-8
+  Spreadsheet_SpecializationAsRows: 1
+  Assets: []
+  Google_WebServiceURL: https://script.google.com/macros/s/AKfycbxsNinyhhJkcHnjcE0kcas6ZqhaR49XbgCE7YO6/exec
+  Google_SpreadsheetKey: 
+  Google_SpreadsheetName: 
+  Google_LastUpdatedVersion: 
+  Google_Password: change_this
+  GoogleUpdateFrequency: 3
+  GoogleInEditorCheckFrequency: 2
+  GoogleUpdateDelay: 5
+  mLanguages:
+  - Name: English
+    Code: en
+    Flags: 0
+  - Name: Chinese
+    Code: zh
+    Flags: 0
+  - Name: French
+    Code: fr
+    Flags: 0
+  - Name: German
+    Code: de
+    Flags: 0
+  - Name: Italian
+    Code: it
+    Flags: 0
+  - Name: Japanese
+    Code: ja
+    Flags: 0
+  - Name: Portuguese
+    Code: pt
+    Flags: 0
+  - Name: Russian
+    Code: ru
+    Flags: 0
+  - Name: Spanish
+    Code: es
+    Flags: 0
+  - Name: Indonesian
+    Code: id
+    Flags: 0
+  - Name: Korean
+    Code: ko
+    Flags: 0
+  IgnoreDeviceLanguage: 0
+  _AllowUnloadingLanguages: 1
+  mTerms:
+  - Term: Win!
+    TermType: 0
+    Description: 
+    Languages:
+    - Congratulation!
+    - "\u795D\u8D3A\uFF01"
+    - Gagner!
+    - Sieg!
+    - Vincere!
+    - "\u52DD\u3064\uFF01"
+    - Ganhar!
+    - "\u041F\u043E\u0437\u0434\u0440\u0430\u0432\u043B\u0435\u043D\u0438\u0435!"
+    - Felicidades
+    - Selamat Ya!
+    - "\uCD95\uD558\uD574!"
+    Flags: 0000000000000000000000
+    Languages_Touch: []
+  - Term: Lose!
+    TermType: 0
+    Description: 
+    Languages:
+    - Lose!
+    - "\u5931\u53BB\uFF01"
+    - Perdre!
+    - Verlieren!
+    - Perdere!
+    - "\u5931\u3046\uFF01"
+    - Perder!
+    - "\u042D\u0442\u043E \u0424\u0438\u0430\u0441\u043A\u043E, \u0411\u0440\u0430\u0442\u0430\u043D!"
+    - "\xA1Perder!"
+    - Kalah!
+    - "\uC783\uB2E4!"
+    Flags: 0000000000000000000000
+    Languages_Touch: []
+  - Term: Change Language
+    TermType: 0
+    Description: 
+    Languages:
+    - Change Language
+    - "\u6539\u53D8\u8BED\u8A00"
+    - Changer De Langue
+    - "Sprache \xC4ndern"
+    - Cambia Lingua
+    - "\u8A00\u8A9E\u3092\u5909\u3048\u3066\u304F\u3060\u3055\u3044"
+    - Mudar Idioma
+    - "\u0418\u0437\u043C\u0435\u043D\u0438\u0442\u044C \u042F\u0437\u044B\u043A"
+    - Cambiar Idioma
+    - Ganti BAHASA
+    - "\uC5B8\uC5B4 \uBCC0\uACBD"
+    Flags: 0000000000000000000000
+    Languages_Touch: []
+  - Term: Graphics Level
+    TermType: 0
+    Description: 
+    Languages:
+    - Graphics Level
+    - "\u56FE\u5F62\u7EA7\u522B"
+    - Niveau Graphique
+    - Grafik-ebene
+    - Livello Di Grafica
+    - "\u30B0\u30E9\u30D5\u30A3\u30C3\u30AF\u30B9\u30EC\u30D9\u30EB"
+    - "N\xEDvel De Gr\xE1ficos"
+    - "\u0423\u0440\u043E\u0432\u0435\u043D\u044C \u0413\u0440\u0430\u0444\u0438\u043A\u0438"
+    - Nivel Grafico
+    - Tingkat Grafis
+    - "\uADF8\uB798\uD53D \uB808\uBCA8"
+    Flags: 0000000000000000000000
+    Languages_Touch: []
+  - Term: Sound
+    TermType: 0
+    Description: 
+    Languages:
+    - Sound
+    - "\u58F0\u97F3"
+    - Du Son
+    - Klingen
+    - Suono
+    - "\u97F3"
+    - Som
+    - "\u0417\u0432\u0443\u043A"
+    - Sonar
+    - Suara
+    - "\uC18C\uB9AC"
+    Flags: 0000000000000000000000
+    Languages_Touch: []
+  - Term: Hold your finger 1 sec
+    TermType: 0
+    Description: 
+    Languages:
+    - Hold your finger 1 sec
+    - "\u63E1\u4F4F\u4F60\u7684\u624B\u63071\u79D2"
+    - Tenez votre doigt 1 seconde
+    - Halte deinen Finger 1 Sek
+    - Tieni il dito per 1 sec
+    - "\u6307\u30921\u79D2\u6301\u3061\u307E\u3059"
+    - Segure seu dedo 1 segundo
+    - "\u0414\u0435\u0440\u0436\u0438\u0442\u0435 \u043F\u0430\u043B\u0435\u0446 1
+      \u0441\u0435\u043A."
+    - "Sost\xE9n tu dedo 1 segundo"
+    - Pegang jari Anda 1 detik
+    - "\uC190\uAC00\uB77D\uC73C\uB85C 1 \uCD08\uAC04 \uAE30\uB2E4\uB9AC\uC2ED\uC2DC\uC624."
+    Flags: 0000000000000000000000
+    Languages_Touch: []
+  - Term: Level
+    TermType: 0
+    Description: 
+    Languages:
+    - Level
+    - "\u6C34\u5E73"
+    - Niveau
+    - Niveau
+    - Livello
+    - "\u30EC\u30D9\u30EB"
+    - "N\xEDvel"
+    - "\u0423\u0440\u043E\u0432\u0435\u043D\u044C"
+    - Nivel
+    - Tingkat
+    - "\uC218\uD3C9"
+    Flags: 0000000000000000000000
+    Languages_Touch: []
+  - Term: 'Time:'
+    TermType: 0
+    Description: 
+    Languages:
+    - 'Time:'
+    - "\u65F6\u95F4\uFF1A"
+    - 'Temps:'
+    - 'Zeit:'
+    - 'Tempo:'
+    - "\u6642\u9593\uFF1A"
+    - 'Tempo:'
+    - "\u0412\u0440\u0435\u043C\u044F:"
+    - 'Hora:'
+    - 'Waktu:'
+    - "\uC2DC\uAC01:"
+    Flags: 0000000000000000000000
+    Languages_Touch: []
+  - Term: 'Record Time:'
+    TermType: 0
+    Description: 
+    Languages:
+    - 'Best Time:'
+    - "\u6700\u597D\u7684\u65F6\u95F4\uFF1A"
+    - 'Meilleur Temps:'
+    - 'Beste Zeit:'
+    - 'Miglior Tempo:'
+    - "\u30D9\u30B9\u30C8\u30BF\u30A4\u30E0\uFF1A"
+    - 'Melhor Tempo:'
+    - "\u041B\u0443\u0447\u0448\u0435\u0435 \u0412\u0440\u0435\u043C\u044F:"
+    - 'Mejor Tiempo:'
+    - 'Waktu Terbaik:'
+    - "\uAC00\uC7A5 \uC88B\uC740 \uC2DC\uAC04 :"
+    Flags: 0000000000000000000000
+    Languages_Touch: []
+  - Term: Total Scores
+    TermType: 0
+    Description: 
+    Languages:
+    - "Total Scores\t"
+    - "\u603B\u5206"
+    - Scores Totaux
+    - Gesamtpunktzahl
+    - Punteggi Totali
+    - "\u5408\u8A08\u5F97\u70B9"
+    - "Pontua\xE7\xF5es Totais"
+    - "\u041E\u0431\u0449\u0435\u0435 \u041A\u043E\u043B\u0438\u0447\u0435\u0441\u0442\u0432\u043E
+      \u0411\u0430\u043B\u043B\u043E\u0432"
+    - Puntajes Totales
+    - Skor Total
+    - "\uCD1D\uC810"
+    Flags: 0000000000000000000000
+    Languages_Touch: []
+  - Term: 'Best Scores:'
+    TermType: 0
+    Description: 
+    Languages:
+    - 'Best Scores:'
+    - "\u6700\u4F73\u6210\u7EE9\uFF1A"
+    - 'Meilleurs Scores:'
+    - 'Beste Noten:'
+    - 'I Migliori Punteggi:'
+    - "\u6700\u9AD8\u5F97\u70B9\uFF1A"
+    - "Melhores Pontua\xE7\xF5es:"
+    - "\u041B\u0443\u0447\u0448\u0438\u0435 \u0420\u0435\u0437\u0443\u043B\u044C\u0442\u0430\u0442\u044B:"
+    - 'Mejores Puntajes:'
+    - 'Skor Terbaik:'
+    - "\uCD5C\uACE0 \uC810\uC218 :"
+    Flags: 0000000000000000000000
+    Languages_Touch: []
+  - Term: LOADING LEVEL..
+    TermType: 0
+    Description: 
+    Languages:
+    - Level Loading..
+    - "\u88C5\u8F7D\u6C34\u5E73.."
+    - Niveau De Chargement ..
+    - Ladeebene ..
+    - Livello Di Caricamento ..
+    - "\u8CA0\u8377\u30EC\u30D9\u30EB.."
+    - "N\xEDvel De Carga .."
+    - "\u0417\u0430\u0433\u0440\u0443\u0437\u043A\u0430 \u0423\u0440\u043E\u0432\u043D\u044F
+      .."
+    - Nivel De Carga ..
+    - Tingkat Pemuatan ..
+    - "\uB85C\uB529 \uB808\uBCA8 .."
+    Flags: 0000000000000000000000
+    Languages_Touch: []
+  - Term: Stand By We are calibrating your system
+    TermType: 0
+    Description: 
+    Languages:
+    - 'Stand By
+
+      We Are Calibrating Your System'
+    - "\u652F\u6301\n\u6211\u4EEC\u6B63\u5728\u6821\u51C6\u60A8\u7684\u7CFB\u7EDF"
+    - "Etre Pr\xEAt\nNous Calibrons Votre Syst\xE8me"
+    - 'Bereithalten
+
+      Wir Kalibrieren Ihr System'
+    - 'Pausa
+
+      Stiamo Calibrando Il Tuo Sistema'
+    - "\u5F85\u6A5F\u3059\u308B\n\u3042\u306A\u305F\u306E\u30B7\u30B9\u30C6\u30E0\u3092\u6821\u6B63\u3057\u3066\u3044\u307E\u3059"
+    - 'Espera
+
+      Estamos Calibrando Seu Sistema'
+    - "\u041E\u0436\u0438\u0434\u0430\u043D\u0438\u0435\n\u041C\u044B \u041A\u0430\u043B\u0438\u0431\u0440\u0443\u0435\u043C
+      \u0412\u0430\u0448\u0443 \u0421\u0438\u0441\u0442\u0435\u043C\u0443"
+    - 'Colocarse
+
+      Estamos Calibrando Su Sistema'
+    - 'Bersiap
+
+      Kami Sedang Mengkalibrasi Sistem Anda'
+    - "\uB300\uAE30\uD558\uB2E4\n\uC6B0\uB9AC\uB294 \uB2F9\uC2E0\uC758 \uC2DC\uC2A4\uD15C\uC744
+      \uAD50\uC815\uD558\uACE0\uC788\uB2E4."
+    Flags: 0000000000000000000000
+    Languages_Touch: []
+  - Term: 'Score:'
+    TermType: 0
+    Description: 
+    Languages:
+    - ' '
+    - ' '
+    - ' '
+    - ' '
+    - ' '
+    - ' '
+    - ' '
+    - ' '
+    - ' '
+    - ' '
+    - ' '
+    Flags: 0000000000000000000000
+    Languages_Touch: []
+  - Term: 'Scores:'
+    TermType: 0
+    Description: 
+    Languages:
+    - 'Scores:'
+    - "\u8BC4\u5206\uFF1A"
+    - 'Scores:'
+    - 'Punkte:'
+    - 'Punteggi:'
+    - "\u5F97\u70B9\uFF1A"
+    - "Pontua\xE7\xF5es:"
+    - "\u041E\u0447\u043A\u0438:"
+    - 'Puntuaciones:'
+    - 'Skor:'
+    - "\uC810\uC218 :"
+    Flags: 0000000000000000000000
+    Languages_Touch: []
+  - Term: 'Your Scores:'
+    TermType: 0
+    Description: 
+    Languages:
+    - 'Your Scores:'
+    - "\u4F60\u7684\u5206\u6570\uFF1A"
+    - 'Vos Scores:'
+    - 'Deine Punktzahl:'
+    - 'I Tuoi Punteggi:'
+    - "\u3042\u306A\u305F\u306E\u5F97\u70B9\uFF1A"
+    - "Sua Pontua\xE7\xE3o:"
+    - "\u0412\u0430\u0448\u0438 \u0420\u0435\u0437\u0443\u043B\u044C\u0442\u0430\u0442\u044B:"
+    - Tus Puntuaciones
+    - 'Skor Anda:'
+    - "\uB2F9\uC2E0\uC758 \uC810\uC218 :"
+    Flags: 0000000000000000000000
+    Languages_Touch: []
+  - Term: Total Score
+    TermType: 0
+    Description: 
+    Languages:
+    - Total Score
+    - "\u603B\u5F97\u5206"
+    - Score Total
+    - Gesamtpunktzahl
+    - Punteggio Totale
+    - "\u5408\u8A08\u30B9\u30B3\u30A2"
+    - "Pontua\xE7\xE3o Total"
+    - "\u041E\u0431\u0449\u0438\u0439 \u0421\u0447\u0435\u0442"
+    - Puntaje Total
+    - Skor Total
+    - "\uCD1D \uC810\uC218"
+    Flags: 0000000000000000000000
+    Languages_Touch: []
+  - Term: 'Best Time:'
+    TermType: 0
+    Description: 
+    Languages:
+    - 'Best Time:'
+    - "\u6700\u597D\u7684\u65F6\u95F4\uFF1A"
+    - 'Meilleur Temps:'
+    - 'Beste Zeit:'
+    - 'Miglior Tempo:'
+    - "\u30D9\u30B9\u30C8\u30BF\u30A4\u30E0\uFF1A"
+    - 'Melhor Tempo:'
+    - "\u041B\u0443\u0447\u0448\u0435\u0435 \u0412\u0440\u0435\u043C\u044F:"
+    - 'Mejor Tiempo:'
+    - 'Waktu Terbaik:'
+    - "\uAC00\uC7A5 \uC88B\uC740 \uC2DC\uAC04 :"
+    Flags: 0000000000000000000000
+    Languages_Touch: []
+  - Term: Your Scores
+    TermType: 0
+    Description: 
+    Languages:
+    - Your Scores
+    - "\u4F60\u7684\u5206\u6570"
+    - Vos Scores
+    - Deine Punkte
+    - I Tuoi Punteggi
+    - "\u3042\u306A\u305F\u306E\u5F97\u70B9"
+    - "Suas Pontua\xE7\xF5es"
+    - "\u0412\u0430\u0448\u0438 \u041E\u0446\u0435\u043D\u043A\u0438"
+    - Tus Puntuaciones
+    - Skor Anda
+    - "\uB2F9\uC2E0\uC758 \uC810\uC218"
+    Flags: 0000000000000000000000
+    Languages_Touch: []
+  - Term: Aim the Target and Hold your finger 1 sec
+    TermType: 0
+    Description: 
+    Languages:
+    - Aim the Target and Hold your finger 1 sec
+    - "\u7784\u51C6\u76EE\u6807\u5E76\u63E1\u4F4F\u4F60\u7684\u624B\u63071\u79D2"
+    - Visez la cible et maintenez votre doigt 1 seconde
+    - Zielen Sie das Ziel und halten Sie Ihren Finger 1 Sek
+    - Punta il bersaglio e mantieni il dito per 1 sec
+    - "\u30BF\u30FC\u30B2\u30C3\u30C8\u3092\u76EE\u6307\u3057\u3001\u6307\u30921\u79D2\u9593\u4FDD\u6301\u3059\u308B"
+    - Aponte o alvo e segure seu dedo 1 seg
+    - "\u041F\u0440\u0438\u0446\u0435\u043B\u044C\u0442\u0435\u0441\u044C \u0438 \u0443\u0434\u0435\u0440\u0436\u0438\u0432\u0430\u0439\u0442\u0435
+      \u043F\u0430\u043B\u0435\u0446 1 \u0441\u0435\u043A."
+    - "Apunta al objetivo y mant\xE9n el dedo 1 segundo"
+    - Arahkan Target dan Tahan jari Anda 1 detik
+    - "\uBAA9\uD45C\uBB3C\uC744 \uC870\uC900\uD558\uACE0 \uC190\uAC00\uB77D\uC744
+      1 \uCD08 \uB3D9\uC548 \uC720\uC9C0\uD558\uC2ED\uC2DC\uC624."
+    Flags: 0000000000000000000000
+    Languages_Touch: []
+  - Term: Canopy strike
+    TermType: 0
+    Description: 
+    Languages:
+    - Canopy strike
+    - "\u51A0\u5C42\u7F62\u5DE5"
+    - "Gr\xE8ve de la canop\xE9e"
+    - Baldachin-Streik
+    - Colpo a baldacchino
+    - "\u30AD\u30E3\u30CE\u30D4\u30FC\u30B9\u30C8\u30E9\u30A4\u30AD"
+    - Greve dossel
+    - "\u041D\u0430\u0432\u0435\u0441"
+    - Huelga de dosel
+    - Pemogokan kanopi
+    - "\uCE90\uB178\uD53C \uD30C\uC5C5"
+    Flags: 0000000000000000000000
+    Languages_Touch: []
+  - Term: You can grab things on level
+    TermType: 0
+    Description: 
+    Languages:
+    - You can grab things on level
+    - "\u4F60\u53EF\u4EE5\u5728\u6C34\u5E73\u4E0A\u6293\u4F4F\u4E1C\u897F"
+    - Vous pouvez attraper les choses au niveau
+    - "Sie k\xF6nnen Dinge auf der Ebene greifen"
+    - Puoi prendere le cose a livello
+    - "\u3042\u306A\u305F\u306F\u30EC\u30D9\u30EB\u3067\u3082\u306E\u3092\u3064\u304B\u3080\u3053\u3068\u304C\u3067\u304D\u307E\u3059"
+    - "Voc\xEA pode pegar coisas no n\xEDvel"
+    - "\u0412\u044B \u043C\u043E\u0436\u0435\u0442\u0435 \u0437\u0430\u0445\u0432\u0430\u0442\u044B\u0432\u0430\u0442\u044C
+      \u0432\u0435\u0449\u0438 \u043D\u0430 \u0443\u0440\u043E\u0432\u043D\u0435"
+    - Puedes agarrar cosas en el nivel
+    - Anda bisa meraih sesuatu di level
+    - "\uB808\uBCA8\uC5D0\uC11C \uBB3C\uAC74\uC744 \uAC00\uC838\uC62C \uC218 \uC788\uC2B5\uB2C8\uB2E4."
+    Flags: 0000000000000000000000
+    Languages_Touch: []
+  - Term: Power Shot Shoot faster than 0.1 second
+    TermType: 0
+    Description: 
+    Languages:
+    - 'Power Shot
+
+      Shoot faster than 0.1 second '
+    - "\u52A8\u529B\u5C04\u51FB\n\u62CD\u6444\u901F\u5EA6\u8D85\u8FC70.1\u79D2"
+    - 'Tir puissant
+
+      Tir plus vite que 0.1 seconde'
+    - "Kraftschuss\nSchie\xDFen Sie schneller als 0,1 Sekunden"
+    - "Tiro di potenza\nScatta pi\xF9 veloce di 0,1 secondi"
+    - "\u30D1\u30EF\u30FC\u30B7\u30E7\u30C3\u30C8\n0.1\u79D2\u3088\u308A\u65E9\u304F\u64AE\u5F71\u3059\u308B"
+    - "Tiro de poder\nAtire mais r\xE1pido que 0,1 segundo"
+    - "\u0421\u0438\u043B\u043E\u0432\u043E\u0439 \u0432\u044B\u0441\u0442\u0440\u0435\u043B\n\u0421\u0442\u0440\u0435\u043B\u044F\u0442\u044C
+      \u0431\u044B\u0441\u0442\u0440\u0435\u0435 0,1 \u0441\u0435\u043A\u0443\u043D\u0434\u044B"
+    - "Disparo de energ\xEDa\nDispara m\xE1s r\xE1pido que 0.1 segundo"
+    - 'Power Shot
+
+      Bidik lebih cepat dari 0,1 detik'
+    - "\uD30C\uC6CC \uC0F7\n0.1 \uCD08\uBCF4\uB2E4 \uBE60\uB974\uAC8C \uCD2C\uC601\uD558\uC2ED\uC2DC\uC624."
+    Flags: 0000000000000000000000
+    Languages_Touch: []
+  - Term: Destroy Objetc by tbe Ball
+    TermType: 0
+    Description: 
+    Languages:
+    - Destroy Object by tbe Ball
+    - "\u7528\u7403\u51FB\u8D25Objetc"
+    - Destroy Objetc par tbe Ball
+    - "Zerst\xF6re Objetc mit dem Ball"
+    - Distruggi Objetc con la palla
+    - "\u30DC\u30FC\u30EB\u3067\u30AA\u30D6\u30B8\u30A7\u30AF\u30C8\u3092\u7834\u58CA\u3059\u308B"
+    - Destrua Objetc pela bola
+    - "\u0423\u043D\u0438\u0447\u0442\u043E\u0436\u0438\u0442\u044C Objetc by tbe
+      Ball"
+    - Destruye Objetc by tbe Ball
+    - Hancurkan Objetc dengan Bola
+    - "\uACF5\uC73C\uB85C \uC624\uBE0C\uC81C\uB97C \uD30C\uAD34\uD558\uB77C."
+    Flags: 0000000000000000000000
+    Languages_Touch: []
+  - Term: Destroy Object by tbe Ball
+    TermType: 0
+    Description: 
+    Languages:
+    - Destroy Object by tbe Ball
+    - "\u901A\u8FC7\u7403\u6765\u6D88\u706D\u5BF9\u8C61"
+    - Destroy Object par tbe Ball
+    - "Zerst\xF6re das Objekt durch den Ball"
+    - Distruggi l'oggetto con la palla
+    - "\u30AA\u30D6\u30B8\u30A7\u30AF\u30C8\u3092\u30DC\u30FC\u30EB\u306B\u3088\u3063\u3066\u7834\u58CA\u3059\u308B"
+    - Destrua o objeto pela bola
+    - "\u0423\u043D\u0438\u0447\u0442\u043E\u0436\u044C\u0442\u0435 \u043E\u0431\u044A\u0435\u043A\u0442
+      by tbe Ball"
+    - Destruye el objeto por la bola tbe
+    - Hancurkan Objek dengan Bola
+    - "\uACF5\uC744 \uACF5\uC73C\uB85C \uD30C\uAD34\uD558\uB77C."
+    Flags: 0000000000000000000000
+    Languages_Touch: []
+  - Term: Destroy Object by the Ball
+    TermType: 0
+    Description: 
+    Languages:
+    - Destroy Object by the Ball
+    - "\u7528\u7403\u6467\u6BC1\u7269\u4F53"
+    - "D\xE9truire un objet par la balle"
+    - "Zerst\xF6re das Objekt am Ball"
+    - Distruggi l'oggetto con la palla
+    - "\u30DC\u30FC\u30EB\u3067\u30AA\u30D6\u30B8\u30A7\u30AF\u30C8\u3092\u7834\u58CA\u3059\u308B"
+    - Destrua o objeto pela bola
+    - "\u0423\u043D\u0438\u0447\u0442\u043E\u0436\u044C\u0442\u0435 \u043E\u0431\u044A\u0435\u043A\u0442
+      \u043C\u044F\u0447\u043E\u043C"
+    - Destruir objeto por la bola
+    - Hancurkan Object oleh Ball
+    - "\uACF5\uC73C\uB85C \uAC1C\uCCB4 \uD30C\uAD34"
+    Flags: 0000000000000000000000
+    Languages_Touch: []
+  - Term: Loading
+    TermType: 0
+    Description: 
+    Languages:
+    - Loading
+    - "\u88C5\u8F7D"
+    - Chargement
+    - Wird Geladen
+    - Caricamento In Corso
+    - "\u8AAD\u307F\u8FBC\u307F\u4E2D"
+    - Carregando
+    - "\u0417\u0430\u0433\u0440\u0443\u0437\u043A\u0430"
+    - Cargando
+    - Pemuatan
+    - "\uB85C\uB529"
+    Flags: 0000000000000000000000
+    Languages_Touch: []
+  - Term: BAR
+    TermType: 0
+    Description: 
+    Languages:
+    - Bar
+    - "\u9152\u5427"
+    - Bar
+    - Bar
+    - Bar
+    - "\u30D0\u30FC"
+    - Barra
+    - "\u0411\u0430\u0440"
+    - Bar
+    - Bar
+    - "\uBC14"
+    Flags: 0000000000000000000000
+    Languages_Touch: []
+  - Term: Laboratory
+    TermType: 0
+    Description: 
+    Languages:
+    - Laboratory
+    - "\u5B9E\u9A8C\u5BA4"
+    - Laboratoire
+    - Labor
+    - Laboratorio
+    - "\u7814\u7A76\u5BA4"
+    - "Laborat\xF3rio"
+    - "\u041B\u0430\u0431\u043E\u0440\u0430\u0442\u043E\u0440\u0438\u044F"
+    - Laboratorio
+    - Laboratorium
+    - "\uC2E4\uD5D8\uC2E4"
+    Flags: 0000000000000000000000
+    Languages_Touch: []
+  - Term: Factory
+    TermType: 0
+    Description: 
+    Languages:
+    - Factory
+    - "\u5382"
+    - Usine
+    - Fabrik
+    - Fabbrica
+    - "\u5DE5\u5834"
+    - "F\xE1brica"
+    - "\u0417\u0430\u0432\u043E\u0434"
+    - "F\xE1brica"
+    - Pabrik
+    - "\uACF5\uC7A5"
+    Flags: 0000000000000000000000
+    Languages_Touch: []
+  - Term: One More  Level
+    TermType: 0
+    Description: 
+    Languages:
+    - "One More \nLevel"
+    - "\u591A\u4E00\u4E2A\n\u6C34\u5E73"
+    - 'Un De Plus
+
+      Niveau'
+    - 'Einer Noch
+
+      Niveau'
+    - 'Ancora Uno
+
+      Livello'
+    - "\u3082\u3046\u4E00\u3064\n\u30EC\u30D9\u30EB"
+    - "Mais Um\nN\xEDvel"
+    - "\u0415\u0449\u0435 \u041E\u0434\u0438\u043D\n\u0423\u0440\u043E\u0432\u0435\u043D\u044C"
+    - 'Uno Mas
+
+      Nivel'
+    - 'Satu Lagi
+
+      Tingkat'
+    - "\uD558\uB098 \uB354\n\uC218\uD3C9"
+    Flags: 0000000000000000000000
+    Languages_Touch: []
+  - Term: KITCHEN
+    TermType: 0
+    Description: 
+    Languages:
+    - Kitchen
+    - "\u53A8\u623F"
+    - Cuisine
+    - "K\xFCche"
+    - Cucina
+    - "\u30AD\u30C3\u30C1\u30F3"
+    - Cozinha
+    - "\u041A\u0443\u0445\u043D\u044F"
+    - Cocina
+    - Dapur
+    - "\uBD80\uC5CC"
+    Flags: 0000000000000000000000
+    Languages_Touch: []
+  - Term: 'SCORES:'
+    TermType: 0
+    Description: 
+    Languages:
+    - 'Scores: '
+    - "\u8BC4\u5206\uFF1A"
+    - 'Scores:'
+    - 'Punkte:'
+    - 'Punteggi:'
+    - "\u5F97\u70B9\uFF1A"
+    - "Pontua\xE7\xF5es:"
+    - "\u041E\u0447\u043A\u0438:"
+    - 'Puntuaciones:'
+    - 'Skor:'
+    - "\uC810\uC218 :"
+    Flags: 0000000000000000000000
+    Languages_Touch: []
+  - Term: STARS
+    TermType: 4
+    Description: 
+    Languages:
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    Flags: 0000000000000000000000
+    Languages_Touch: []
+  - Term: KITCHEN
+    TermType: 0
+    Description: 
+    Languages:
+    - Kitchen
+    - "\u53A8\u623F"
+    - Cuisine
+    - "K\xFCche"
+    - Cucina
+    - "\u30AD\u30C3\u30C1\u30F3"
+    - Cozinha
+    - "\u041A\u0443\u0445\u043D\u044F"
+    - Cocina
+    - Dapur
+    - "\uBD80\uC5CC"
+    Flags: 0000000000000000000000
+    Languages_Touch: []
+  - Term: BAR
+    TermType: 0
+    Description: 
+    Languages:
+    - Bar
+    - "\u9152\u5427"
+    - Bar
+    - Bar
+    - Bar
+    - "\u30D0\u30FC"
+    - Barra
+    - "\u0411\u0430\u0440"
+    - Bar
+    - Bar
+    - "\uBC14"
+    Flags: 0000000000000000000000
+    Languages_Touch: []
+  - Term: Laboratory
+    TermType: 0
+    Description: 
+    Languages:
+    - Laboratory
+    - "\u5B9E\u9A8C\u5BA4"
+    - Laboratoire
+    - Labor
+    - Laboratorio
+    - "\u7814\u7A76\u5BA4"
+    - "Laborat\xF3rio"
+    - "\u041B\u0430\u0431\u043E\u0440\u0430\u0442\u043E\u0440\u0438\u044F"
+    - Laboratorio
+    - Laboratorium
+    - "\uC2E4\uD5D8\uC2E4"
+    Flags: 0000000000000000000000
+    Languages_Touch: []
+  - Term: Factory
+    TermType: 0
+    Description: 
+    Languages:
+    - Factory
+    - "\u5382"
+    - Usine
+    - Fabrik
+    - Fabbrica
+    - "\u5DE5\u5834"
+    - "F\xE1brica"
+    - "\u0417\u0430\u0432\u043E\u0434"
+    - "F\xE1brica"
+    - Pabrik
+    - "\uACF5\uC7A5"
+    Flags: 0000000000000000000000
+    Languages_Touch: []
+  - Term: One More  Level
+    TermType: 0
+    Description: 
+    Languages:
+    - "One More \nLevel"
+    - "\u591A\u4E00\u4E2A\n\u6C34\u5E73"
+    - 'Un De Plus
+
+      Niveau'
+    - 'Einer Noch
+
+      Niveau'
+    - 'Ancora Uno
+
+      Livello'
+    - "\u3082\u3046\u4E00\u3064\n\u30EC\u30D9\u30EB"
+    - "Mais Um\nN\xEDvel"
+    - "\u0415\u0449\u0435 \u041E\u0434\u0438\u043D\n\u0423\u0440\u043E\u0432\u0435\u043D\u044C"
+    - 'Uno Mas
+
+      Nivel'
+    - 'Satu Lagi
+
+      Tingkat'
+    - "\uD558\uB098 \uB354\n\uC218\uD3C9"
+    Flags: 0000000000000000000000
+    Languages_Touch: []
+  - Term: Easy
+    TermType: 0
+    Description: 
+    Languages:
+    - Easy
+    - "\u7B80\u5355"
+    - Facile
+    - Einfach
+    - Facile
+    - "\u7C21\u5358"
+    - "F\xE1cil"
+    - "\u041B\u0435\u0433\u043A\u0438\u0439"
+    - "F\xE1cil"
+    - Mudah
+    - "\uC26C\uC6B4"
+    Flags: 0000000000000000000000
+    Languages_Touch: []
+  - Term: Medium
+    TermType: 0
+    Description: 
+    Languages:
+    - Medium
+    - "\u4E2D"
+    - Moyen
+    - Mittel
+    - Medio
+    - "\u4E2D"
+    - "M\xE9dio"
+    - "\u0421\u0440\u0435\u0434\u043D\u0438\u0439"
+    - Medio
+    - Medium
+    - "\uB9E4\uC9C8"
+    Flags: 0000000000000000000000
+    Languages_Touch: []
+  - Term: Hard
+    TermType: 0
+    Description: 
+    Languages:
+    - Hard
+    - "\u786C"
+    - Difficile
+    - Hart
+    - Difficile
+    - "\u30CF\u30FC\u30C9"
+    - "Dif\xEDcil"
+    - "\u0421\u043B\u043E\u0436\u043D\u044B\u0439"
+    - "Dif\xEDcil"
+    - Keras
+    - "\uB2E8\uB2E8\uD55C"
+    Flags: 0000000000000000000000
+    Languages_Touch: []
+  - Term: Are you sure?
+    TermType: 0
+    Description: 
+    Languages:
+    - Are you sure?
+    - "\u4F60\u786E\u5B9A\uFF1F"
+    - "\xCAtes-vous s\xFBr?"
+    - Bist du sicher?
+    - Sei sicuro?
+    - "\u672C\u6C17\u3067\u3059\u304B\uFF1F"
+    - "Voc\xEA tem certeza?"
+    - "\u0412\u044B \u0443\u0432\u0435\u0440\u0435\u043D\u044B?"
+    - "\xBFEst\xE1s seguro?"
+    - Apakah kamu yakin?
+    - "\uD655\uC2E4\uD569\uB2C8\uAE4C?"
+    Flags: 0000000000000000000000
+    Languages_Touch: []
+  - Term: Yes
+    TermType: 0
+    Description: 
+    Languages:
+    - Yes
+    - "\u662F"
+    - Oui
+    - Ja
+    - "S\xEC"
+    - "\u306F\u3044"
+    - Sim
+    - "\u0414\u0430"
+    - "S\xED"
+    - Iya Nih
+    - "\uC608"
+    Flags: 0000000000000000000000
+    Languages_Touch: []
+  - Term: No
+    TermType: 0
+    Description: 
+    Languages:
+    - No
+    - "\u6CA1\u6709"
+    - Non
+    - Nein
+    - No
+    - "\u3044\u3044\u3048"
+    - "N\xE3o"
+    - "\u041D\u0435\u0442"
+    - No
+    - Tidak
+    - "\uC544\uB2C8"
+    Flags: 0000000000000000000000
+    Languages_Touch: []
+  - Term: It will destroy your progress!
+    TermType: 0
+    Description: 
+    Languages:
+    - It Will Remove Your Stars!
+    - "\u5B83\u5C06\u5220\u9664\u4F60\u7684\u661F\u661F\uFF01"
+    - "\xC7a Enl\xE8vera Tes \xC9toiles!"
+    - Es Wird Deine Sterne Entfernen!
+    - "Rimuover\xE0 Le Tue Stelle!"
+    - "\u305D\u308C\u306F\u3042\u306A\u305F\u306E\u661F\u3092\u524A\u9664\u3057\u307E\u3059\uFF01"
+    - "Isso Remover\xE1 Suas Estrelas!"
+    - "\u042D\u0442\u043E \u0423\u0434\u0430\u043B\u0438\u0442 \u0412\u0430\u0448\u0438
+      \u0417\u0432\u0435\u0437\u0434\u044B!"
+    - "\xA1Quitar\xE1 Tus Estrellas!"
+    - Itu Akan Menghapus Bintang Anda!
+    - "\uADF8\uAC83\uC740 \uB2F9\uC2E0\uC758 \uBCC4\uC744 \uC81C\uAC70\uD569\uB2C8\uB2E4!"
+    Flags: 0000000000000000000000
+    Languages_Touch: []
+  - Term: toUnlock
+    TermType: 0
+    Description: 
+    Languages:
+    - 'To Unlock:'
+    - "\u5F00\u9501\uFF1A"
+    - "D\xE9verouiller:"
+    - "Aufschlie\xDFen:"
+    - 'Sbloccare:'
+    - "\u30ED\u30C3\u30AF\u3092\u89E3\u9664\u3059\u308B\uFF1A"
+    - 'Desbloquear:'
+    - "\u041E\u0441\u0442\u0430\u043B\u043E\u0441\u044C:"
+    - 'Para Desbloquear:'
+    - 'Untuk Membuka:'
+    - "\uC7A0\uAE08 \uD574\uC81C :"
+    Flags: 0000000000000000000000
+    Languages_Touch: []
+  - Term: If You like this game - help us to make new levels
+    TermType: 0
+    Description: 
+    Languages:
+    - If You like this game - help us to make new levels
+    - "\u5982\u679C\u4F60\u559C\u6B22\u8FD9\u4E2A\u6E38\u620F - \u5E2E\u52A9\u6211\u4EEC\u521B\u9020\u65B0\u7684\u6C34\u5E73"
+    - "Si vous aimez ce jeu, aidez-nous \xE0 cr\xE9er de nouveaux niveaux"
+    - "Wenn Sie dieses Spiel m\xF6gen - helfen Sie uns, neue Levels zu machen"
+    - Se ti piace questo gioco - aiutaci a fare nuovi livelli
+    - "\u3042\u306A\u305F\u304C\u3053\u306E\u30B2\u30FC\u30E0\u304C\u597D\u304D\u306A\u3089
+      - \u65B0\u3057\u3044\u30EC\u30D9\u30EB\u3092\u4F5C\u308B\u305F\u3081\u306B\u79C1\u305F\u3061\u3092\u52A9\u3051\u3066\u304F\u3060\u3055\u3044"
+    - "Se voc\xEA gosta deste jogo - ajude-nos a fazer novos n\xEDveis"
+    - "\u0415\u0441\u043B\u0438 \u0432\u0430\u043C \u043D\u0440\u0430\u0432\u0438\u0442\u0441\u044F
+      \u044D\u0442\u0430 \u0438\u0433\u0440\u0430 - \u043F\u043E\u043C\u043E\u0433\u0438\u0442\u0435
+      \u043D\u0430\u043C \u0441\u0434\u0435\u043B\u0430\u0442\u044C \u043D\u043E\u0432\u044B\u0435
+      \u0443\u0440\u043E\u0432\u043D\u0438"
+    - "Si te gusta este juego, ay\xFAdanos a hacer nuevos niveles."
+    - Jika Anda menyukai permainan ini - bantu kami untuk membuat level baru
+    - "\uC774 \uAC8C\uC784\uC774 \uB9C8\uC74C\uC5D0 \uB4DC\uC2DC\uBA74 - \uC0C8\uB85C\uC6B4
+      \uCC28\uC6D0\uC744 \uCC3D\uC870\uD558\uB294 \uB370 \uB3C4\uC6C0\uC774\uB429\uB2C8\uB2E4."
+    Flags: 0000000000000000000000
+    Languages_Touch: []
+  - Term: Do you enjoy our game?
+    TermType: 0
+    Description: 
+    Languages:
+    - Do you enjoy our game?
+    - "\u4F60\u559C\u6B22\u6211\u4EEC\u7684\u6E38\u620F\u5417\uFF1F"
+    - Aimez-vous notre jeu?
+    - "Gef\xE4llt dir unser Spiel?"
+    - Ti piace il nostro gioco?
+    - "\u3042\u306A\u305F\u306F\u79C1\u305F\u3061\u306E\u30B2\u30FC\u30E0\u3092\u697D\u3057\u3093\u3067\u3044\u307E\u3059\u304B\uFF1F"
+    - "Voc\xEA gosta do nosso jogo?"
+    - "\u0412\u0430\u043C \u043D\u0440\u0430\u0432\u0438\u0442\u0441\u044F \u043D\u0430\u0448\u0430
+      \u0438\u0433\u0440\u0430?"
+    - "\xBFDisfrutas de nuestro juego?"
+    - Apakah Anda menikmati permainan kami?
+    - "\uC6B0\uB9AC \uAC8C\uC784\uC744 \uC990\uAE30\uC2ED\uB2C8\uAE4C?"
+    Flags: 0000000000000000000000
+    Languages_Touch: []
+  - Term: Later
+    TermType: 0
+    Description: 
+    Languages:
+    - Later
+    - "\u540E\u6765"
+    - Plus Tard
+    - "Sp\xE4ter"
+    - Dopo
+    - "\u5F8C\u3067"
+    - Mais Tarde
+    - "\u041F\u043E\u0437\u0436\u0435"
+    - Luego
+    - Kemudian
+    - "\uD6C4\uC5D0"
+    Flags: 0000000000000000000000
+    Languages_Touch: []
+  - Term: Never
+    TermType: 0
+    Description: 
+    Languages:
+    - Never
+    - "\u51B3\u4E0D"
+    - Jamais
+    - Noch Nie
+    - Mai
+    - "\u6C7A\u3057\u3066"
+    - Nunca
+    - "\u041D\u0438\u043A\u043E\u0433\u0434\u0430"
+    - Nunca
+    - Tak Pernah
+    - "\uBABB"
+    Flags: 0000000000000000000000
+    Languages_Touch: []
+  - Term: Report
+    TermType: 0
+    Description: 
+    Languages:
+    - Report
+    - "\u62A5\u544A"
+    - Rapport
+    - Bericht
+    - Rapporto
+    - "\u5831\u544A\u3059\u308B"
+    - "Relat\xF3rio"
+    - "\u041E\u0442\u043F\u0440\u0430\u0432\u0438\u0442\u044C"
+    - Informe
+    - Melaporkan
+    - "\uBCF4\uACE0\uC11C"
+    Flags: 0000000000000000000000
+    Languages_Touch: []
+  - Term: Rate
+    TermType: 0
+    Description: 
+    Languages:
+    - Rate
+    - "\u7387"
+    - Taux
+    - Bewertung
+    - Vota
+    - "\u30EC\u30FC\u30C8"
+    - Taxa
+    - "\u041E\u0446\u0435\u043D\u0438\u0442\u044C"
+    - Tarifa
+    - Menilai
+    - "\uC728"
+    Flags: 0000000000000000000000
+    Languages_Touch: []
+  - Term: Play
+    TermType: 0
+    Description: 
+    Languages:
+    - Play
+    - "\u73A9"
+    - Jouer
+    - Abspielen
+    - Giocare
+    - "\u904A\u3073\u307E\u3059"
+    - Toque
+    - "\u0418\u0433\u0440\u0430\u0442\u044C"
+    - Jugar
+    - Bermain
+    - "\uB180\uC774"
+    Flags: 0000000000000000000000
+    Languages_Touch: []
+  - Term: Take it In Fly!!!
+    TermType: 0
+    Description: 
+    Languages:
+    - Take it In Fly!!!
+    - "\u98DE\u5427!!!"
+    - Prenez-le mouche !!!
+    - Nimm es in Fly !!!
+    - Prendilo in volo !!!
+    - "\u305D\u308C\u3092\u30D5\u30E9\u30A4\u3067\u6301\u3063\u3066\u3044\u3051\uFF01"
+    - Tome-o na mosca !!!
+    - "\u0412\u043E\u0437\u044C\u043C\u0438 \u044D\u0442\u043E \u043D\u0430 \u043B\u0435\u0442\u0443
+      !!!"
+    - "\xA1T\xF3malo en mosca!"
+    - Ambillah Dalam Terbang !!!
+    - "\uBE44\uD589 \uC911\uC5D0 \uAC00\uC838 \uAC00\uB77C. !!!"
+    Flags: 0000000000000000000000
+    Languages_Touch: []
+  - Term: 'You lost 5 times in a row: We recommend lowering the difficulty'
+    TermType: 0
+    Description: 
+    Languages:
+    - 'You lost 5 times in a row: We recommend lowering the difficulty'
+    - "\u4F60\u8FDE\u7EED\u4E22\u5931\u4E865\u6B21\uFF1A\u6211\u4EEC\u5EFA\u8BAE\u964D\u4F4E\u96BE\u5EA6"
+    - "Vous avez perdu 5 fois de suite: nous vous recommandons de r\xE9duire la difficult\xE9"
+    - 'Du hast 5 Mal in Folge verloren: Wir empfehlen, den Schwierigkeitsgrad zu verringern'
+    - "Hai perso 5 volte di seguito: ti consigliamo di ridurre la difficolt\xE0"
+    - "\u3042\u306A\u305F\u306F5\u56DE\u9023\u7D9A\u3057\u3066\u5931\u308F\u308C\u307E\u3057\u305F\uFF1A\u96E3\u6613\u5EA6\u3092\u4E0B\u3052\u308B\u3053\u3068\u3092\u304A\u52E7\u3081\u3057\u307E\u3059"
+    - "Voc\xEA perdeu 5 vezes seguidas: recomendamos reduzir a dificuldade"
+    - "\u0412\u044B \u043F\u0440\u043E\u0438\u0433\u0440\u0430\u043B\u0438 5 \u0440\u0430\u0437
+      \u043F\u043E\u0434\u0440\u044F\u0434: \u043C\u044B \u0440\u0435\u043A\u043E\u043C\u0435\u043D\u0434\u0443\u0435\u043C
+      \u0441\u043D\u0438\u0437\u0438\u0442\u044C \u0441\u043B\u043E\u0436\u043D\u043E\u0441\u0442\u044C"
+    - 'Perdiste 5 veces seguidas: te recomendamos reducir la dificultad.'
+    - 'Anda kalah 5 kali berturut-turut: Sebaiknya kurangi kesulitannya'
+    - "5 \uBC88 \uC5F0\uC18D \uD328\uBC30 : \uC5B4\uB824\uC6C0\uC744 \uC904\uC774\uB294
+      \uAC83\uC774 \uC88B\uC2B5\uB2C8\uB2E4."
+    Flags: 0000000000000000000000
+    Languages_Touch: []
+  - Term: Dont ask anymore
+    TermType: 0
+    Description: 
+    Languages:
+    - Dont ask anymore
+    - "\u4E0D\u8981\u518D\u95EE\u4E86"
+    - Ne demande plus
+    - Frag nicht mehr
+    - "Non chiedere pi\xF9"
+    - "\u3082\u3046\u8CEA\u554F\u3057\u306A\u3044\u3067"
+    - "N\xE3o pergunte mais"
+    - "\u041D\u0435 \u0441\u043F\u0440\u0430\u0448\u0438\u0432\u0430\u0439 \u0431\u043E\u043B\u044C\u0448\u0435"
+    - No preguntes mas
+    - Jangan tanya lagi
+    - "\uB354 \uC774\uC0C1 \uBB3B\uC9C0 \uB9C8\uB77C."
+    Flags: 0000000000000000000000
+    Languages_Touch: []
+  - Term: YES
+    TermType: 0
+    Description: 
+    Languages:
+    - Yes
+    - "\u662F"
+    - Oui
+    - Ja
+    - "S\xEC"
+    - "\u306F\u3044"
+    - Sim
+    - "\u0414\u0430"
+    - "S\xED"
+    - Iya Nih
+    - "\uC608"
+    Flags: 0000000000000000000000
+    Languages_Touch: []
+  CaseInsensitiveTerms: 0
+  OnMissingTranslation: 1
+  mTerm_AppName: 

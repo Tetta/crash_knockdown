@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.10.00">
+    <object class="UiMixerView" id="{7f8590db-7967-4295-a7b0-83536137d580}">
+        <property name="name">
+            <value>GamePlay</value>
+        </property>
+        <relationship name="assignedStrips">
+            <destination>{cd8d7c27-f4b2-410f-b31e-faad51d38f56}</destination>
+            <destination>{75a9830a-4f4d-431a-97b6-3eea51f8da85}</destination>
+            <destination>{4e926317-4c86-4ec4-940a-7d3fbd21960e}</destination>
+            <destination>{6ad30d66-c675-44e2-b6ba-5476550d8aa8}</destination>
+            <destination>{ccf9e74a-24a6-49cc-b5af-4a511fb3ea57}</destination>
+            <destination>{0519c8ab-668b-427f-95ec-2d6b37bec2a8}</destination>
+            <destination>{c06b7e3c-3b8f-46a2-9786-f8856c694df0}</destination>
+            <destination>{d00bda7d-80a7-4185-8ba3-c08b82b93d97}</destination>
+            <destination>{82bda99e-285a-4e6e-b455-aed0d5cd1ad0}</destination>
+            <destination>{9bae599a-928a-4337-b12f-f11b1059650c}</destination>
+            <destination>{79f90c7d-5727-4100-a001-9859cbc06c17}</destination>
+            <destination>{5f9784f5-f522-4ff9-96ef-c33bcd186047}</destination>
+            <destination>{5a1314d5-409b-4436-b373-5901c17ed1fa}</destination>
+            <destination>{a8801c3b-6da2-4114-aed7-35fa56bdbf4d}</destination>
+            <destination>{71c078f0-d6fc-4626-8321-7435679d5a11}</destination>
+            <destination>{05dce15f-5665-4bda-9f78-2dad5314deae}</destination>
+            <destination>{22adcdec-2523-41e9-ab23-b524601ce599}</destination>
+            <destination>{18d93a4f-2a53-44ea-a4ef-54c63f2c1692}</destination>
+            <destination>{9ba8a45c-99c5-4e21-8565-f0cf076fc286}</destination>
+            <destination>{d1e67a25-fc51-461f-9782-118712258c07}</destination>
+            <destination>{ef1fb03b-2b4c-4f0a-a455-42402c26483d}</destination>
+            <destination>{66ef76b7-5b98-426c-b0e7-ca64e2bc0493}</destination>
+            <destination>{6cb082b7-7d69-4072-9b34-6a96128eabdd}</destination>
+        </relationship>
+        <relationship name="mixer">
+            <destination>{ac956028-37b3-4934-958e-1920bd58f660}</destination>
+        </relationship>
+    </object>
+</objects>

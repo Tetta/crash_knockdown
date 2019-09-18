@@ -1,0 +1,836 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{E3103B8C-72A0-4688-8F51-FB52CF6CEBB8}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AssemblyName>Assembly-CSharp-Editor</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <TargetFrameworkIdentifier>.NETFramework</TargetFrameworkIdentifier>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <TargetFrameworkProfile></TargetFrameworkProfile>
+    <CompilerResponseFile></CompilerResponseFile>
+    <UnityProjectGenerator>VSTU</UnityProjectGenerator>
+    <UnityProjectType>Editor:5</UnityProjectType>
+    <UnityBuildTarget>iOS:9</UnityBuildTarget>
+    <UnityVersion>2018.2.21f1</UnityVersion>
+    <RootNamespace></RootNamespace>
+    <LangVersion>4</LangVersion>
+  </PropertyGroup>
+  <PropertyGroup>
+    <NoConfig>true</NoConfig>
+    <NoStdLib>true</NoStdLib>
+    <AddAdditionalExplicitAssemblyReferences>false</AddAdditionalExplicitAssemblyReferences>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\UnityVS_bin\Debug\</OutputPath>
+    <IntermediateOutputPath>Temp\UnityVS_obj\Debug\</IntermediateOutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_2_21;UNITY_2018_2;UNITY_2018;UNITY_PURCHASING;UNITY_ANALYTICS;UNITY_ADS;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_SPRITES;ENABLE_GRID;ENABLE_TILEMAP;ENABLE_TERRAIN;ENABLE_TEXTURE_STREAMING;ENABLE_DIRECTOR;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_TIMELINE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;ENABLE_MANAGED_ANIMATION_JOBS;INCLUDE_DYNAMIC_GI;INCLUDE_GI;ENABLE_MONO_BDWGC;PLATFORM_SUPPORTS_MONO;INCLUDE_PUBNUB;ENABLE_VIDEO;ENABLE_PACKMAN;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_LOCALIZATION;ENABLE_RUNTIME_GI;ENABLE_SUBSTANCE;ENABLE_GAMECENTER;ENABLE_NETWORK;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_IOS_NATIVE_CRASH_REPORTING;PLAYERCONNECTION_LISTENS_FIXED_PORT;DEBUGGER_LISTENS_FIXED_PORT;PLATFORM_SUPPORTS_ADS_ID;SUPPORT_ENVIRONMENT_VARIABLES;PLATFORM_SUPPORTS_PROFILER;PLATFORM_HAS_NO_SUPPORT_FOR_BUCKET_ALLOCATOR;STRICTCPP_NEW_DELETE_SIGNATURES;HAS_NEON_SKINNING;UNITY_GFX_USE_PLATFORM_VSYNC;UNITY_INPUT_SIMULATE_EVENTS;PLATFORM_ALWAYS_USES_STDOUT_FOR_LOG;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYADS_RUNTIME;UNITY_UNITYADS_API;PLATFORM_IOS;UNITY_IOS;PLATFORM_IPHONE;UNITY_IPHONE;UNITY_IPHONE_API;SUPPORT_MULTIPLE_DISPLAYS;ENABLE_VR;ENABLE_AR;ENABLE_SPATIALTRACKING;ENABLE_MONO;NET_2_0_SUBSET;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_UNITY_COLLECTIONS_CHECKS;ENABLE_BURST_AOT;UNITY_TEAM_LICENSE;ENABLE_VSTU;UNITY_PRO_LICENSE;UNITY_POST_PROCESSING_STACK_V2;TextMeshPro;ENABLE_IOS_ON_DEMAND_RESOURCES;ENABLE_IOS_APP_SLICING;UNITY_HAS_GOOGLEVR</DefineConstants>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\UnityVS_bin\Release\</OutputPath>
+    <IntermediateOutputPath>Temp\UnityVS_obj\Release\</IntermediateOutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DefineConstants>TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_2_21;UNITY_2018_2;UNITY_2018;UNITY_PURCHASING;UNITY_ANALYTICS;UNITY_ADS;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_SPRITES;ENABLE_GRID;ENABLE_TILEMAP;ENABLE_TERRAIN;ENABLE_TEXTURE_STREAMING;ENABLE_DIRECTOR;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_TIMELINE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;ENABLE_MANAGED_ANIMATION_JOBS;INCLUDE_DYNAMIC_GI;INCLUDE_GI;ENABLE_MONO_BDWGC;PLATFORM_SUPPORTS_MONO;INCLUDE_PUBNUB;ENABLE_VIDEO;ENABLE_PACKMAN;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_LOCALIZATION;ENABLE_RUNTIME_GI;ENABLE_SUBSTANCE;ENABLE_GAMECENTER;ENABLE_NETWORK;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_IOS_NATIVE_CRASH_REPORTING;PLAYERCONNECTION_LISTENS_FIXED_PORT;DEBUGGER_LISTENS_FIXED_PORT;PLATFORM_SUPPORTS_ADS_ID;SUPPORT_ENVIRONMENT_VARIABLES;PLATFORM_SUPPORTS_PROFILER;PLATFORM_HAS_NO_SUPPORT_FOR_BUCKET_ALLOCATOR;STRICTCPP_NEW_DELETE_SIGNATURES;HAS_NEON_SKINNING;UNITY_GFX_USE_PLATFORM_VSYNC;UNITY_INPUT_SIMULATE_EVENTS;PLATFORM_ALWAYS_USES_STDOUT_FOR_LOG;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYADS_RUNTIME;UNITY_UNITYADS_API;PLATFORM_IOS;UNITY_IOS;PLATFORM_IPHONE;UNITY_IPHONE;UNITY_IPHONE_API;SUPPORT_MULTIPLE_DISPLAYS;ENABLE_VR;ENABLE_AR;ENABLE_SPATIALTRACKING;ENABLE_MONO;NET_2_0_SUBSET;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_UNITY_COLLECTIONS_CHECKS;ENABLE_BURST_AOT;UNITY_TEAM_LICENSE;ENABLE_VSTU;UNITY_PRO_LICENSE;UNITY_POST_PROCESSING_STACK_V2;TextMeshPro;ENABLE_IOS_ON_DEMAND_RESOURCES;ENABLE_IOS_APP_SLICING;UNITY_HAS_GOOGLEVR</DefineConstants>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="UnityEditor.StandardEvents">
+      <HintPath>Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.TextMeshPro.Editor">
+      <HintPath>Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.PackageManagerUI.Editor">
+      <HintPath>Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.TextMeshPro">
+      <HintPath>Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Postprocessing.Editor">
+      <HintPath>Library/ScriptAssemblies/Unity.Postprocessing.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Postprocessing.Runtime">
+      <HintPath>Library/ScriptAssemblies/Unity.Postprocessing.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="Managed/UnityEngine/UnityEngine">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2018.2.21f1\Editor\Data\Managed/UnityEngine/UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="Managed/UnityEngine/UnityEngine.AIModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2018.2.21f1\Editor\Data\Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Managed/UnityEngine/UnityEngine.ARModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2018.2.21f1\Editor\Data\Managed/UnityEngine/UnityEngine.ARModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Managed/UnityEngine/UnityEngine.AccessibilityModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2018.2.21f1\Editor\Data\Managed/UnityEngine/UnityEngine.AccessibilityModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Managed/UnityEngine/UnityEngine.AnimationModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2018.2.21f1\Editor\Data\Managed/UnityEngine/UnityEngine.AnimationModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Managed/UnityEngine/UnityEngine.AssetBundleModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2018.2.21f1\Editor\Data\Managed/UnityEngine/UnityEngine.AssetBundleModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Managed/UnityEngine/UnityEngine.AudioModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2018.2.21f1\Editor\Data\Managed/UnityEngine/UnityEngine.AudioModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Managed/UnityEngine/UnityEngine.BaselibModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2018.2.21f1\Editor\Data\Managed/UnityEngine/UnityEngine.BaselibModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Managed/UnityEngine/UnityEngine.ClothModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2018.2.21f1\Editor\Data\Managed/UnityEngine/UnityEngine.ClothModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Managed/UnityEngine/UnityEngine.CloudWebServicesModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2018.2.21f1\Editor\Data\Managed/UnityEngine/UnityEngine.CloudWebServicesModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Managed/UnityEngine/UnityEngine.ClusterInputModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2018.2.21f1\Editor\Data\Managed/UnityEngine/UnityEngine.ClusterInputModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Managed/UnityEngine/UnityEngine.ClusterRendererModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2018.2.21f1\Editor\Data\Managed/UnityEngine/UnityEngine.ClusterRendererModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Managed/UnityEngine/UnityEngine.CoreModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2018.2.21f1\Editor\Data\Managed/UnityEngine/UnityEngine.CoreModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Managed/UnityEngine/UnityEngine.CrashReportingModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2018.2.21f1\Editor\Data\Managed/UnityEngine/UnityEngine.CrashReportingModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Managed/UnityEngine/UnityEngine.DirectorModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2018.2.21f1\Editor\Data\Managed/UnityEngine/UnityEngine.DirectorModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Managed/UnityEngine/UnityEngine.FacebookModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2018.2.21f1\Editor\Data\Managed/UnityEngine/UnityEngine.FacebookModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Managed/UnityEngine/UnityEngine.FileSystemHttpModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2018.2.21f1\Editor\Data\Managed/UnityEngine/UnityEngine.FileSystemHttpModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Managed/UnityEngine/UnityEngine.GameCenterModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2018.2.21f1\Editor\Data\Managed/UnityEngine/UnityEngine.GameCenterModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Managed/UnityEngine/UnityEngine.GridModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2018.2.21f1\Editor\Data\Managed/UnityEngine/UnityEngine.GridModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Managed/UnityEngine/UnityEngine.HotReloadModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2018.2.21f1\Editor\Data\Managed/UnityEngine/UnityEngine.HotReloadModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Managed/UnityEngine/UnityEngine.IMGUIModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2018.2.21f1\Editor\Data\Managed/UnityEngine/UnityEngine.IMGUIModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Managed/UnityEngine/UnityEngine.ImageConversionModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2018.2.21f1\Editor\Data\Managed/UnityEngine/UnityEngine.ImageConversionModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Managed/UnityEngine/UnityEngine.InputModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2018.2.21f1\Editor\Data\Managed/UnityEngine/UnityEngine.InputModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Managed/UnityEngine/UnityEngine.JSONSerializeModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2018.2.21f1\Editor\Data\Managed/UnityEngine/UnityEngine.JSONSerializeModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Managed/UnityEngine/UnityEngine.LocalizationModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2018.2.21f1\Editor\Data\Managed/UnityEngine/UnityEngine.LocalizationModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Managed/UnityEngine/UnityEngine.ParticleSystemModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2018.2.21f1\Editor\Data\Managed/UnityEngine/UnityEngine.ParticleSystemModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Managed/UnityEngine/UnityEngine.ParticlesLegacyModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2018.2.21f1\Editor\Data\Managed/UnityEngine/UnityEngine.ParticlesLegacyModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Managed/UnityEngine/UnityEngine.PerformanceReportingModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2018.2.21f1\Editor\Data\Managed/UnityEngine/UnityEngine.PerformanceReportingModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Managed/UnityEngine/UnityEngine.PhysicsModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2018.2.21f1\Editor\Data\Managed/UnityEngine/UnityEngine.PhysicsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Managed/UnityEngine/UnityEngine.Physics2DModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2018.2.21f1\Editor\Data\Managed/UnityEngine/UnityEngine.Physics2DModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Managed/UnityEngine/UnityEngine.ProfilerModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2018.2.21f1\Editor\Data\Managed/UnityEngine/UnityEngine.ProfilerModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Managed/UnityEngine/UnityEngine.ScreenCaptureModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2018.2.21f1\Editor\Data\Managed/UnityEngine/UnityEngine.ScreenCaptureModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Managed/UnityEngine/UnityEngine.SharedInternalsModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2018.2.21f1\Editor\Data\Managed/UnityEngine/UnityEngine.SharedInternalsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Managed/UnityEngine/UnityEngine.SpatialTrackingModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2018.2.21f1\Editor\Data\Managed/UnityEngine/UnityEngine.SpatialTrackingModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Managed/UnityEngine/UnityEngine.SpriteMaskModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2018.2.21f1\Editor\Data\Managed/UnityEngine/UnityEngine.SpriteMaskModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Managed/UnityEngine/UnityEngine.SpriteShapeModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2018.2.21f1\Editor\Data\Managed/UnityEngine/UnityEngine.SpriteShapeModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Managed/UnityEngine/UnityEngine.StreamingModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2018.2.21f1\Editor\Data\Managed/UnityEngine/UnityEngine.StreamingModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Managed/UnityEngine/UnityEngine.StyleSheetsModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2018.2.21f1\Editor\Data\Managed/UnityEngine/UnityEngine.StyleSheetsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Managed/UnityEngine/UnityEngine.SubstanceModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2018.2.21f1\Editor\Data\Managed/UnityEngine/UnityEngine.SubstanceModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Managed/UnityEngine/UnityEngine.TLSModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2018.2.21f1\Editor\Data\Managed/UnityEngine/UnityEngine.TLSModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Managed/UnityEngine/UnityEngine.TerrainModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2018.2.21f1\Editor\Data\Managed/UnityEngine/UnityEngine.TerrainModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Managed/UnityEngine/UnityEngine.TerrainPhysicsModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2018.2.21f1\Editor\Data\Managed/UnityEngine/UnityEngine.TerrainPhysicsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Managed/UnityEngine/UnityEngine.TextRenderingModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2018.2.21f1\Editor\Data\Managed/UnityEngine/UnityEngine.TextRenderingModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Managed/UnityEngine/UnityEngine.TilemapModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2018.2.21f1\Editor\Data\Managed/UnityEngine/UnityEngine.TilemapModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Managed/UnityEngine/UnityEngine.TimelineModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2018.2.21f1\Editor\Data\Managed/UnityEngine/UnityEngine.TimelineModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Managed/UnityEngine/UnityEngine.UIModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2018.2.21f1\Editor\Data\Managed/UnityEngine/UnityEngine.UIModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Managed/UnityEngine/UnityEngine.UIElementsModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2018.2.21f1\Editor\Data\Managed/UnityEngine/UnityEngine.UIElementsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Managed/UnityEngine/UnityEngine.UNETModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2018.2.21f1\Editor\Data\Managed/UnityEngine/UnityEngine.UNETModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Managed/UnityEngine/UnityEngine.UmbraModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2018.2.21f1\Editor\Data\Managed/UnityEngine/UnityEngine.UmbraModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Managed/UnityEngine/UnityEngine.UnityAnalyticsModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2018.2.21f1\Editor\Data\Managed/UnityEngine/UnityEngine.UnityAnalyticsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Managed/UnityEngine/UnityEngine.UnityConnectModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2018.2.21f1\Editor\Data\Managed/UnityEngine/UnityEngine.UnityConnectModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Managed/UnityEngine/UnityEngine.UnityWebRequestModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2018.2.21f1\Editor\Data\Managed/UnityEngine/UnityEngine.UnityWebRequestModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Managed/UnityEngine/UnityEngine.UnityWebRequestAssetBundleModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2018.2.21f1\Editor\Data\Managed/UnityEngine/UnityEngine.UnityWebRequestAssetBundleModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Managed/UnityEngine/UnityEngine.UnityWebRequestAudioModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2018.2.21f1\Editor\Data\Managed/UnityEngine/UnityEngine.UnityWebRequestAudioModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Managed/UnityEngine/UnityEngine.UnityWebRequestTextureModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2018.2.21f1\Editor\Data\Managed/UnityEngine/UnityEngine.UnityWebRequestTextureModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Managed/UnityEngine/UnityEngine.UnityWebRequestWWWModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2018.2.21f1\Editor\Data\Managed/UnityEngine/UnityEngine.UnityWebRequestWWWModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Managed/UnityEngine/UnityEngine.VRModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2018.2.21f1\Editor\Data\Managed/UnityEngine/UnityEngine.VRModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Managed/UnityEngine/UnityEngine.VehiclesModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2018.2.21f1\Editor\Data\Managed/UnityEngine/UnityEngine.VehiclesModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Managed/UnityEngine/UnityEngine.VideoModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2018.2.21f1\Editor\Data\Managed/UnityEngine/UnityEngine.VideoModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Managed/UnityEngine/UnityEngine.WindModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2018.2.21f1\Editor\Data\Managed/UnityEngine/UnityEngine.WindModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Managed/UnityEngine/UnityEngine.XRModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2018.2.21f1\Editor\Data\Managed/UnityEngine/UnityEngine.XRModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Managed/UnityEditor">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2018.2.21f1\Editor\Data\Managed/UnityEditor.dll</HintPath>
+    </Reference>
+    <Reference Include="Managed/Unity.Locator">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2018.2.21f1\Editor\Data\Managed/Unity.Locator.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UI">
+      <HintPath>C:/Program Files/Unity/Hub/Editor/2018.2.21f1/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.UI">
+      <HintPath>C:/Program Files/Unity/Hub/Editor/2018.2.21f1/Editor/Data/UnityExtensions/Unity/GUISystem/Editor/UnityEditor.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.TestRunner">
+      <HintPath>C:/Program Files/Unity/Hub/Editor/2018.2.21f1/Editor/Data/UnityExtensions/Unity/TestRunner/Editor/UnityEditor.TestRunner.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TestRunner">
+      <HintPath>C:/Program Files/Unity/Hub/Editor/2018.2.21f1/Editor/Data/UnityExtensions/Unity/TestRunner/UnityEngine.TestRunner.dll</HintPath>
+    </Reference>
+    <Reference Include="nunit.framework">
+      <HintPath>C:/Program Files/Unity/Hub/Editor/2018.2.21f1/Editor/Data/UnityExtensions/Unity/TestRunner/net35/unity-custom/nunit.framework.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Timeline">
+      <HintPath>C:/Program Files/Unity/Hub/Editor/2018.2.21f1/Editor/Data/UnityExtensions/Unity/Timeline/RuntimeEditor/UnityEngine.Timeline.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.Timeline">
+      <HintPath>C:/Program Files/Unity/Hub/Editor/2018.2.21f1/Editor/Data/UnityExtensions/Unity/Timeline/Editor/UnityEditor.Timeline.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.TreeEditor">
+      <HintPath>C:/Program Files/Unity/Hub/Editor/2018.2.21f1/Editor/Data/UnityExtensions/Unity/TreeEditor/Editor/UnityEditor.TreeEditor.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Networking">
+      <HintPath>C:/Program Files/Unity/Hub/Editor/2018.2.21f1/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.Networking">
+      <HintPath>C:/Program Files/Unity/Hub/Editor/2018.2.21f1/Editor/Data/UnityExtensions/Unity/Networking/Editor/UnityEditor.Networking.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.GoogleAudioSpatializer">
+      <HintPath>C:/Program Files/Unity/Hub/Editor/2018.2.21f1/Editor/Data/UnityExtensions/Unity/UnityGoogleAudioSpatializer/Editor/UnityEditor.GoogleAudioSpatializer.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.GoogleAudioSpatializer">
+      <HintPath>C:/Program Files/Unity/Hub/Editor/2018.2.21f1/Editor/Data/UnityExtensions/Unity/UnityGoogleAudioSpatializer/RuntimeEditor/UnityEngine.GoogleAudioSpatializer.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.HoloLens">
+      <HintPath>C:/Program Files/Unity/Hub/Editor/2018.2.21f1/Editor/Data/UnityExtensions/Unity/UnityHoloLens/Editor/UnityEditor.HoloLens.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.HoloLens">
+      <HintPath>C:/Program Files/Unity/Hub/Editor/2018.2.21f1/Editor/Data/UnityExtensions/Unity/UnityHoloLens/RuntimeEditor/UnityEngine.HoloLens.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.SpatialTracking">
+      <HintPath>C:/Program Files/Unity/Hub/Editor/2018.2.21f1/Editor/Data/UnityExtensions/Unity/UnitySpatialTracking/Editor/UnityEditor.SpatialTracking.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.SpatialTracking">
+      <HintPath>C:/Program Files/Unity/Hub/Editor/2018.2.21f1/Editor/Data/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.VR">
+      <HintPath>C:/Program Files/Unity/Hub/Editor/2018.2.21f1/Editor/Data/UnityExtensions/Unity/UnityVR/Editor/UnityEditor.VR.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.Graphs">
+      <HintPath>C:/Program Files/Unity/Hub/Editor/2018.2.21f1/Editor/Data/Managed/UnityEditor.Graphs.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.Android.Extensions">
+      <HintPath>C:/Program Files/Unity/Hub/Editor/2018.2.21f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.iOS.Extensions">
+      <HintPath>C:/Program Files/Unity/Hub/Editor/2018.2.21f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.WindowsStandalone.Extensions">
+      <HintPath>C:/Program Files/Unity/Hub/Editor/2018.2.21f1/Editor/Data/PlaybackEngines/windowsstandalonesupport/UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="SyntaxTree.VisualStudio.Unity.Bridge">
+      <HintPath>C:/Program Files (x86)/Microsoft Visual Studio Tools for Unity/15.0/Editor/SyntaxTree.VisualStudio.Unity.Bridge.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Analytics">
+      <HintPath>C:/Users/tetta/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.analytics@2.0.16/UnityEngine.Analytics.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.Analytics">
+      <HintPath>C:/Users/tetta/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.analytics@2.0.16/Editor/UnityEditor.Analytics.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.Purchasing">
+      <HintPath>C:/Users/tetta/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.purchasing@2.0.3/Editor/UnityEditor.Purchasing.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.StandardEvents">
+      <HintPath>C:/Users/tetta/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.standardevents@1.0.13/UnityEngine.StandardEvents.dll</HintPath>
+    </Reference>
+    <Reference Include="Security">
+      <HintPath>Assets/Plugins/UnityPurchasing/Bin/Security/live/Security.dll</HintPath>
+    </Reference>
+    <Reference Include="Stores">
+      <HintPath>Assets/Plugins/UnityPurchasing/Bin/Stores.dll</HintPath>
+    </Reference>
+    <Reference Include="UDPEditor">
+      <HintPath>Assets/Plugins/UDP/UdpSupport/Editor/UDPEditor.dll</HintPath>
+    </Reference>
+    <Reference Include="ChannelPurchase">
+      <HintPath>Assets/Plugins/UnityChannel/ChannelPurchase.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Advertisements.Editor">
+      <HintPath>Assets/UnityAds/UnityEngine.Advertisements.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="DOTweenEditor">
+      <HintPath>Assets/Demigiant/DOTween/Editor/DOTweenEditor.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityFbxSdk">
+      <HintPath>Assets/FbxExporters/Editor/FbxSdk/Plugins/UnityFbxSdk.dll</HintPath>
+    </Reference>
+    <Reference Include="Facebook.Unity.Gameroom">
+      <HintPath>Assets/FacebookSDK/Plugins/Gameroom/Facebook.Unity.Gameroom.dll</HintPath>
+    </Reference>
+    <Reference Include="Google.VersionHandlerImpl_v1.2.89.0">
+      <HintPath>Assets/PlayServicesResolver/Editor/Google.VersionHandlerImpl_v1.2.89.0.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityFbxExporterEditor">
+      <HintPath>Assets/FbxExporters/Editor/UnityFbxExporterEditor.dll</HintPath>
+    </Reference>
+    <Reference Include="Editor">
+      <HintPath>Assets/Plugins/UnityPurchasing/Bin/Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.iOS_I2Loc.Xcode">
+      <HintPath>Assets/I2/Localization/Scripts/Editor/Unity XCode/UnityEditor.iOS_I2Loc.Xcode.dll</HintPath>
+    </Reference>
+    <Reference Include="Purchasing.Common">
+      <HintPath>Assets/Plugins/UnityPurchasing/Bin/Purchasing.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="FacebookNamedPipeClient">
+      <HintPath>Assets/FacebookSDK/Plugins/Gameroom/FacebookNamedPipeClient.dll</HintPath>
+    </Reference>
+    <Reference Include="winrt">
+      <HintPath>Assets/Plugins/UnityPurchasing/winrt/winrt.dll</HintPath>
+    </Reference>
+    <Reference Include="BetterBuildInfo">
+      <HintPath>Assets/Plugins/Editor/BetterBuildInfo/BetterBuildInfo.dll</HintPath>
+    </Reference>
+    <Reference Include="FacebookStore">
+      <HintPath>Assets/Plugins/UnityPurchasing/Bin/Facebook/FacebookStore.dll</HintPath>
+    </Reference>
+    <Reference Include="Apple">
+      <HintPath>Assets/Plugins/UnityPurchasing/Bin/Apple/Apple.dll</HintPath>
+    </Reference>
+    <Reference Include="DOTween">
+      <HintPath>Assets/Demigiant/DOTween/DOTween.dll</HintPath>
+    </Reference>
+    <Reference Include="Facebook.Unity">
+      <HintPath>Assets/FacebookSDK/Plugins/Facebook.Unity.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityFbxPrefab">
+      <HintPath>Assets/FbxExporters/UnityFbxPrefab.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityStore">
+      <HintPath>Assets/Plugins/UnityChannel/UnityStore.dll</HintPath>
+    </Reference>
+    <Reference Include="Google.IOSResolver_v1.2.89.0">
+      <HintPath>Assets/PlayServicesResolver/Editor/Google.IOSResolver_v1.2.89.0.dll</HintPath>
+    </Reference>
+    <Reference Include="UDP">
+      <HintPath>Assets/Plugins/UDP/UDP.dll</HintPath>
+    </Reference>
+    <Reference Include="Facebook.Unity.Editor">
+      <HintPath>Assets/FacebookSDK/Plugins/Editor/Facebook.Unity.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Google.VersionHandler">
+      <HintPath>Assets/PlayServicesResolver/Editor/Google.VersionHandler.dll</HintPath>
+    </Reference>
+    <Reference Include="Google.JarResolver_v1.2.89.0">
+      <HintPath>Assets/PlayServicesResolver/Editor/Google.JarResolver_v1.2.89.0.dll</HintPath>
+    </Reference>
+    <Reference Include="AppStoreSettings">
+      <HintPath>Assets/Plugins/UDP/UdpSupport/AppStoreSettings.dll</HintPath>
+    </Reference>
+    <Reference Include="Facebook.Unity.Settings">
+      <HintPath>Assets/FacebookSDK/Plugins/Settings/Facebook.Unity.Settings.dll</HintPath>
+    </Reference>
+    <Reference Include="Tizen">
+      <HintPath>Assets/Plugins/UnityPurchasing/Bin/Tizen/Tizen.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.iOS.Extensions.Xcode">
+      <HintPath>C:/Program Files/Unity/Hub/Editor/2018.2.21f1/Editor/Data/PlaybackEngines/iOSSupport\UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.iOS.Extensions.Common">
+      <HintPath>C:/Program Files/Unity/Hub/Editor/2018.2.21f1/Editor/Data/PlaybackEngines/iOSSupport\UnityEditor.iOS.Extensions.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="mscorlib">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2018.2.21f1\Editor\Data\MonoBleedingEdge\lib\mono\2.0-api\mscorlib.dll</HintPath>
+    </Reference>
+    <Reference Include="System">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2018.2.21f1\Editor\Data\MonoBleedingEdge\lib\mono\2.0-api\System.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Core">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2018.2.21f1\Editor\Data\MonoBleedingEdge\lib\mono\2.0-api\System.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2018.2.21f1\Editor\Data\MonoBleedingEdge\lib\mono\2.0-api\System.Runtime.Serialization.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2018.2.21f1\Editor\Data\MonoBleedingEdge\lib\mono\2.0-api\System.Xml.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2018.2.21f1\Editor\Data\MonoBleedingEdge\lib\mono\2.0-api\System.Xml.Linq.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityScript">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2018.2.21f1\Editor\Data\MonoBleedingEdge\lib\mono\2.0-api\UnityScript.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityScript.Lang">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2018.2.21f1\Editor\Data\MonoBleedingEdge\lib\mono\2.0-api\UnityScript.Lang.dll</HintPath>
+    </Reference>
+    <Reference Include="Boo.Lang">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2018.2.21f1\Editor\Data\MonoBleedingEdge\lib\mono\2.0-api\Boo.Lang.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Crash KnockDown.Plugins.csproj">
+      <Project>{110AA7FC-2FB7-56A3-34CD-F9090FCD1432}</Project>
+      <Name>Crash KnockDown.Plugins</Name>
+    </ProjectReference>
+    <ProjectReference Include="Crash KnockDown.csproj">
+      <Project>{DCDFD5CD-A9E6-FC16-D981-0315850EE116}</Project>
+      <Name>Crash KnockDown</Name>
+    </ProjectReference>
+    <ProjectReference Include="Crash KnockDown.Editor.Plugins.csproj">
+      <Project>{115D7F1A-36C6-5507-2DE3-E5B5A7EBFE8E}</Project>
+      <Name>Crash KnockDown.Editor.Plugins</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Assets\Editor\FMODMigrationUtil.cs" />
+    <Compile Include="Assets\GameAnalytics\Editor\GA_AssetPostprocessor.cs" />
+    <Compile Include="Assets\GameAnalytics\Editor\GA_AutoRun.cs" />
+    <Compile Include="Assets\GameAnalytics\Editor\GA_ContinuationManager.cs" />
+    <Compile Include="Assets\GameAnalytics\Editor\GA_EditorUtilities.cs" />
+    <Compile Include="Assets\GameAnalytics\Editor\GA_Menu.cs" />
+    <Compile Include="Assets\GameAnalytics\Editor\GA_PostprocessBuild.cs" />
+    <Compile Include="Assets\GameAnalytics\Editor\GA_SettingsInspector.cs" />
+    <Compile Include="Assets\GameAnalytics\Editor\GA_SignUp.cs" />
+    <Compile Include="Assets\GameAnalytics\Editor\GA_UpdateWindow.cs" />
+    <Compile Include="Assets\GameAnalytics\Editor\GameAnalyticsInspector.cs" />
+    <Compile Include="Assets\GameAnalytics\Plugins\Playmaker\Editor\PlayMakerPresenceCheck.cs" />
+    <Compile Include="Assets\GameAnalytics\Plugins\Playmaker\Editor\SendProgressionEventActionEditor.cs" />
+    <Compile Include="Assets\GameAnalytics\Plugins\Playmaker\Editor\SendResourceEventActionEditor.cs" />
+    <Compile Include="Assets\GameAnalytics\Plugins\Playmaker\Editor\SetGenderActionEditor.cs" />
+    <Compile Include="Assets\GoogleVR\Editor\FmodGvrAudioRoomEditor.cs" />
+    <Compile Include="Assets\I2\Localization\Scripts\Editor\EditorTools.cs" />
+    <Compile Include="Assets\I2\Localization\Scripts\Editor\Inspectors\LanguageSourceInspector.cs" />
+    <Compile Include="Assets\I2\Localization\Scripts\Editor\Inspectors\LocalizationParamsManagerInspector.cs" />
+    <Compile Include="Assets\I2\Localization\Scripts\Editor\Inspectors\LocalizeDropdownInspector.cs" />
+    <Compile Include="Assets\I2\Localization\Scripts\Editor\Inspectors\LocalizeInspector.cs" />
+    <Compile Include="Assets\I2\Localization\Scripts\Editor\Inspectors\ResourceManagerInspector.cs" />
+    <Compile Include="Assets\I2\Localization\Scripts\Editor\Inspectors\SetLanguageInspector.cs" />
+    <Compile Include="Assets\I2\Localization\Scripts\Editor\Inspectors\TermsPopup_Drawer.cs" />
+    <Compile Include="Assets\I2\Localization\Scripts\Editor\Localization\LocalizationEditor.cs" />
+    <Compile Include="Assets\I2\Localization\Scripts\Editor\Localization\LocalizationEditor_Languages.cs" />
+    <Compile Include="Assets\I2\Localization\Scripts\Editor\Localization\LocalizationEditor_Spreadsheet_Google.cs" />
+    <Compile Include="Assets\I2\Localization\Scripts\Editor\Localization\LocalizationEditor_Spreadsheet_Local.cs" />
+    <Compile Include="Assets\I2\Localization\Scripts\Editor\Localization\LocalizationEditor_Terms.cs" />
+    <Compile Include="Assets\I2\Localization\Scripts\Editor\Localization\LocalizationEditor_Terms_Description.cs" />
+    <Compile Include="Assets\I2\Localization\Scripts\Editor\Localization\LocalizationEditor_Tools.cs" />
+    <Compile Include="Assets\I2\Localization\Scripts\Editor\Localization\LocalizationEditor_Tools_Categorize.cs" />
+    <Compile Include="Assets\I2\Localization\Scripts\Editor\Localization\LocalizationEditor_Tools_CharSet.cs" />
+    <Compile Include="Assets\I2\Localization\Scripts\Editor\Localization\LocalizationEditor_Tools_MergeTerms.cs" />
+    <Compile Include="Assets\I2\Localization\Scripts\Editor\Localization\LocalizationEditor_Tools_NoLocalized.cs" />
+    <Compile Include="Assets\I2\Localization\Scripts\Editor\Localization\LocalizationEditor_Tools_ParseTerms.cs" />
+    <Compile Include="Assets\I2\Localization\Scripts\Editor\Localization\LocalizationEditor_Tools_Scenes.cs" />
+    <Compile Include="Assets\I2\Localization\Scripts\Editor\Localization\LocalizationEditor_Tools_Script.cs" />
+    <Compile Include="Assets\I2\Localization\Scripts\Editor\Localization\LocalizationEditor_Warnings.cs" />
+    <Compile Include="Assets\I2\Localization\Scripts\Editor\PostProcessBuild_ANDROID.cs" />
+    <Compile Include="Assets\I2\Localization\Scripts\Editor\PostProcessBuild_IOS.cs" />
+    <Compile Include="Assets\I2\Localization\Scripts\Editor\PostProcessBuild_UnloadLanguages.cs" />
+    <Compile Include="Assets\I2\Localization\Scripts\Editor\UpgradeManager.cs" />
+    <Compile Include="Assets\ResonanceAudio\Editor\FmodResonanceAudioRoomEditor.cs" />
+    <Compile Include="Assets\Ultimate Game Tools\ConcaveCollider\Editor\ConcaveColliderEditor.cs" />
+    <Compile Include="Assets\Ultimate Game Tools\Fracturing\Editor\ExplosionSourceEditor.cs" />
+    <Compile Include="Assets\Ultimate Game Tools\Fracturing\Editor\FracturedChunkEditor.cs" />
+    <Compile Include="Assets\Ultimate Game Tools\Fracturing\Editor\FracturedObjectEditor.cs" />
+    <Compile Include="Assets\Ultimate Game Tools\MeshCombiner\Editor\CombinedMeshEditor.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Demigiant\DOTween\DOTween.XML" />
+    <None Include="Assets\Demigiant\DOTween\Editor\DOTweenEditor.XML" />
+    <None Include="Assets\Demigiant\DOTween\readme.txt" />
+    <None Include="Assets\FacebookSDK\link.xml" />
+    <None Include="Assets\FbxExporters\Editor\FbxSdk\LICENSE.txt" />
+    <None Include="Assets\FbxExporters\Editor\FbxSdk\README.txt" />
+    <None Include="Assets\FbxExporters\LICENSE.txt" />
+    <None Include="Assets\FbxExporters\README.txt" />
+    <None Include="Assets\FbxExporters\RELEASE_NOTES.txt" />
+    <None Include="Assets\GameAnalytics\Editor\GameAnalyticsDependencies.xml" />
+    <None Include="Assets\GameAnalytics\Plugins\Android\AndroidManifest.xml" />
+    <None Include="Assets\GameAnalytics\Readme.txt" />
+    <None Include="Assets\I2\Localization\Scripts\Editor\Unity XCode\Xcode.txt" />
+    <None Include="Assets\I2\Localization\readme.txt" />
+    <None Include="Assets\PlayServicesResolver\Editor\play-services-resolver_v1.2.89.0.txt" />
+    <None Include="Assets\Plugins\Editor\BetterBuildInfo\README.txt" />
+    <None Include="Assets\Plugins\Editor\BetterBuildInfo\Win32\zipinfo_License.txt" />
+    <None Include="Assets\Plugins\FMOD\LICENSE.TXT" />
+    <None Include="Assets\Plugins\UnityPurchasing\Editor\IAPGeneratedCredentials.cs.template" />
+    <None Include="Assets\Plugins\UnityPurchasing\script\link.xml" />
+    <None Include="Assets\Plugins\VolumetricLightBeam\Readme.txt" />
+    <None Include="Assets\Plugins\VolumetricLightBeam\Resources\Shaders\ShaderMaths.cginc" />
+    <None Include="Assets\Plugins\VolumetricLightBeam\Resources\Shaders\ShaderUtils.cginc" />
+    <None Include="Assets\Plugins\VolumetricLightBeam\Resources\Shaders\VolumetricLightBeamShared.cginc" />
+    <None Include="Assets\Plugins\VolumetricLightBeam\Resources\VolumetricLightBeamShared.cginc" />
+    <None Include="Assets\Sound\DexterousBall2\Build\GUIDs.txt" />
+    <None Include="Assets\Sound\DexterousBall2\Metadata\Asset\{079657b7-611f-46bd-9cd6-680356a4831f}.xml" />
+    <None Include="Assets\Sound\DexterousBall2\Metadata\Asset\{1246fdf4-5d58-4f64-8139-38e8151f2d37}.xml" />
+    <None Include="Assets\Sound\DexterousBall2\Metadata\Asset\{12bad5b2-442e-44f1-aeb2-92ff328bc3d4}.xml" />
+    <None Include="Assets\Sound\DexterousBall2\Metadata\Asset\{1b781228-c144-4b59-bcad-eebc74f1921f}.xml" />
+    <None Include="Assets\Sound\DexterousBall2\Metadata\Asset\{1ee76ab2-8b1e-4213-be93-b8ada8fc757e}.xml" />
+    <None Include="Assets\Sound\DexterousBall2\Metadata\Asset\{288de49c-3b1e-49e9-a620-fbbfa8133f15}.xml" />
+    <None Include="Assets\Sound\DexterousBall2\Metadata\Asset\{28943148-0903-4474-9029-ddeaa7224d78}.xml" />
+    <None Include="Assets\Sound\DexterousBall2\Metadata\Asset\{2cdaedce-22ff-4535-8f31-5b62c91bf717}.xml" />
+    <None Include="Assets\Sound\DexterousBall2\Metadata\Asset\{35d41e3f-1af7-4cde-aa30-bd85ac448eca}.xml" />
+    <None Include="Assets\Sound\DexterousBall2\Metadata\Asset\{3b042129-eb82-446c-bd6f-005f65cd04b1}.xml" />
+    <None Include="Assets\Sound\DexterousBall2\Metadata\Asset\{432af4d4-2f3d-49a2-a9d0-896a0fab7d60}.xml" />
+    <None Include="Assets\Sound\DexterousBall2\Metadata\Asset\{45dbcb75-4402-4152-a081-9bcc4cf03758}.xml" />
+    <None Include="Assets\Sound\DexterousBall2\Metadata\Asset\{5049c2ad-563b-4b7a-b450-6819a777ae85}.xml" />
+    <None Include="Assets\Sound\DexterousBall2\Metadata\Asset\{5447b1da-2e39-4554-b508-872907824c5e}.xml" />
+    <None Include="Assets\Sound\DexterousBall2\Metadata\Asset\{5c489ce8-20c4-41f2-bf36-12575d0c0db5}.xml" />
+    <None Include="Assets\Sound\DexterousBall2\Metadata\Asset\{62ca2f9c-5817-4d88-ab49-bc60212aab76}.xml" />
+    <None Include="Assets\Sound\DexterousBall2\Metadata\Asset\{64bda4d7-051f-44c9-bd15-3053baf6bdf7}.xml" />
+    <None Include="Assets\Sound\DexterousBall2\Metadata\Asset\{6dc5b7f4-5ed0-449c-8e29-338bb7927b51}.xml" />
+    <None Include="Assets\Sound\DexterousBall2\Metadata\Asset\{79b8065b-4dee-402c-b9ba-2eb002613b26}.xml" />
+    <None Include="Assets\Sound\DexterousBall2\Metadata\Asset\{7b80112f-0091-43f9-9618-a4069668e43c}.xml" />
+    <None Include="Assets\Sound\DexterousBall2\Metadata\Asset\{83be32e0-1880-4c93-a611-f6b83bf0fffa}.xml" />
+    <None Include="Assets\Sound\DexterousBall2\Metadata\Asset\{8e54d080-4467-462e-bb52-3c9bf5e68551}.xml" />
+    <None Include="Assets\Sound\DexterousBall2\Metadata\Asset\{90b76b49-ae58-4fa4-9b06-6ed7bb079fb7}.xml" />
+    <None Include="Assets\Sound\DexterousBall2\Metadata\Asset\{aca36b09-bab9-4b22-a07e-b42c56c9eb43}.xml" />
+    <None Include="Assets\Sound\DexterousBall2\Metadata\Asset\{b284cf31-1b09-4c9b-acdf-eb471d108696}.xml" />
+    <None Include="Assets\Sound\DexterousBall2\Metadata\Asset\{b5236b24-326b-4d76-9cd4-f1129b03a2b5}.xml" />
+    <None Include="Assets\Sound\DexterousBall2\Metadata\Asset\{b86e4be9-47a1-4f93-ae57-1df20741c139}.xml" />
+    <None Include="Assets\Sound\DexterousBall2\Metadata\Asset\{db1d71d3-c285-46dd-a656-0c68aa846997}.xml" />
+    <None Include="Assets\Sound\DexterousBall2\Metadata\Asset\{e8e6b08b-27bb-48be-b82e-868cc407ad2f}.xml" />
+    <None Include="Assets\Sound\DexterousBall2\Metadata\Asset\{e903a365-4310-4ee5-8cd9-243877c4a0b5}.xml" />
+    <None Include="Assets\Sound\DexterousBall2\Metadata\Asset\{eac8fb5a-9fe7-4493-8f05-f09fa6828cca}.xml" />
+    <None Include="Assets\Sound\DexterousBall2\Metadata\AudioFile\{04287f29-68a8-4bce-afcd-21c9a8e4fbe9}.xml" />
+    <None Include="Assets\Sound\DexterousBall2\Metadata\AudioFile\{0768b5ef-9d75-4435-8561-35f3b1c980ae}.xml" />
+    <None Include="Assets\Sound\DexterousBall2\Metadata\AudioFile\{0a3c1ecf-3b85-4b8f-87b9-b8ff943f1865}.xml" />
+    <None Include="Assets\Sound\DexterousBall2\Metadata\AudioFile\{0df718e6-9af7-44ed-9b68-c3d05e187873}.xml" />
+    <None Include="Assets\Sound\DexterousBall2\Metadata\AudioFile\{112c392e-204f-49c0-9773-b8a43e21a459}.xml" />
+    <None Include="Assets\Sound\DexterousBall2\Metadata\AudioFile\{136f1ae9-ef2f-4263-87b7-a8c7990c5bae}.xml" />
+    <None Include="Assets\Sound\DexterousBall2\Metadata\AudioFile\{14fb265c-f039-4079-9dd5-7acc613e79d9}.xml" />
+    <None Include="Assets\Sound\DexterousBall2\Metadata\AudioFile\{192b025f-88cf-4df4-871c-2be3f3cd7a39}.xml" />
+    <None Include="Assets\Sound\DexterousBall2\Metadata\AudioFile\{1977cfaf-749c-424c-997c-e48b7d2e5f28}.xml" />
+    <None Include="Assets\Sound\DexterousBall2\Metadata\AudioFile\{1c8bea14-c0e7-42b1-a359-55123c53e18f}.xml" />
+    <None Include="Assets\Sound\DexterousBall2\Metadata\AudioFile\{1ff8e65a-b232-4300-ba73-b1ca8c8e85da}.xml" />
+    <None Include="Assets\Sound\DexterousBall2\Metadata\AudioFile\{24989ce1-f9be-41b2-9c61-d1809888933f}.xml" />
+    <None Include="Assets\Sound\DexterousBall2\Metadata\AudioFile\{2707d6df-80a1-4100-95eb-0f7771e04fd3}.xml" />
+    <None Include="Assets\Sound\DexterousBall2\Metadata\AudioFile\{2cb7e3ee-15be-4b0b-b05e-e9555d422750}.xml" />
+    <None Include="Assets\Sound\DexterousBall2\Metadata\AudioFile\{2e3e5db2-8291-40e5-aed2-4dedd05c73ae}.xml" />
+    <None Include="Assets\Sound\DexterousBall2\Metadata\AudioFile\{3684043a-52d8-4183-a61d-922f9b261e13}.xml" />
+    <None Include="Assets\Sound\DexterousBall2\Metadata\AudioFile\{36b9b94f-7c79-4fb4-90c9-5ef946eff028}.xml" />
+    <None Include="Assets\Sound\DexterousBall2\Metadata\AudioFile\{3a80ea6c-c576-45bf-89f9-b6f45ef59b97}.xml" />
+    <None Include="Assets\Sound\DexterousBall2\Metadata\AudioFile\{3b0762e6-e8d9-426e-995f-29fa239a5c4e}.xml" />
+    <None Include="Assets\Sound\DexterousBall2\Metadata\AudioFile\{40f46f8e-766d-447f-b670-c15dcc34f809}.xml" />
+    <None Include="Assets\Sound\DexterousBall2\Metadata\AudioFile\{4246acf2-d579-4178-ab43-66b3537c7d0a}.xml" />
+    <None Include="Assets\Sound\DexterousBall2\Metadata\AudioFile\{4c283680-5adc-4b58-adfc-0833f07af959}.xml" />
+    <None Include="Assets\Sound\DexterousBall2\Metadata\AudioFile\{4e39dc78-23c9-417c-be66-5ae94080bb81}.xml" />
+    <None Include="Assets\Sound\DexterousBall2\Metadata\AudioFile\{4f833fcb-17d5-4285-9186-ac7345e0459b}.xml" />
+    <None Include="Assets\Sound\DexterousBall2\Metadata\AudioFile\{51df7b70-4a75-4cc3-af15-3f32a5d46a69}.xml" />
+    <None Include="Assets\Sound\DexterousBall2\Metadata\AudioFile\{53d4f410-5990-4d6c-89ba-67040c16b397}.xml" />
+    <None Include="Assets\Sound\DexterousBall2\Metadata\AudioFile\{5c7336d3-d2be-4e6c-bba6-60ed5e59daa0}.xml" />
+    <None Include="Assets\Sound\DexterousBall2\Metadata\AudioFile\{5ecce831-2a5b-423a-8658-6ac140d5aeef}.xml" />
+    <None Include="Assets\Sound\DexterousBall2\Metadata\AudioFile\{62e787eb-4cc0-4fd1-adb5-efb00d8c341a}.xml" />
+    <None Include="Assets\Sound\DexterousBall2\Metadata\AudioFile\{65804e0d-9748-4504-b1a0-1f81aed4aa58}.xml" />
+    <None Include="Assets\Sound\DexterousBall2\Metadata\AudioFile\{6bb185fc-71cb-4cbb-92b5-87985eea93bc}.xml" />
+    <None Include="Assets\Sound\DexterousBall2\Metadata\AudioFile\{6cec72d5-b247-435c-93aa-20761de29f61}.xml" />
+    <None Include="Assets\Sound\DexterousBall2\Metadata\AudioFile\{6e5719d7-c788-4d7a-bb57-1848bcde09e5}.xml" />
+    <None Include="Assets\Sound\DexterousBall2\Metadata\AudioFile\{7819c739-0256-4d89-812e-79bbdb26f07e}.xml" />
+    <None Include="Assets\Sound\DexterousBall2\Metadata\AudioFile\{787dde72-cf20-4f99-9e5e-e7fd20944079}.xml" />
+    <None Include="Assets\Sound\DexterousBall2\Metadata\AudioFile\{7a42a74e-db72-4c9e-b28f-bd674eb29f13}.xml" />
+    <None Include="Assets\Sound\DexterousBall2\Metadata\AudioFile\{7cde82c0-26e8-4026-a7a7-cb1711a5d4bd}.xml" />
+    <None Include="Assets\Sound\DexterousBall2\Metadata\AudioFile\{80230e1e-fd06-4b78-9712-ccac32c3ce2c}.xml" />
+    <None Include="Assets\Sound\DexterousBall2\Metadata\AudioFile\{8584bbd5-c7b1-451b-b678-8ce631985cd5}.xml" />
+    <None Include="Assets\Sound\DexterousBall2\Metadata\AudioFile\{8da926b2-0bb0-45d9-a56b-14b654e93c41}.xml" />
+    <None Include="Assets\Sound\DexterousBall2\Metadata\AudioFile\{8dad0df2-972b-47d1-86cb-f4c14046789d}.xml" />
+    <None Include="Assets\Sound\DexterousBall2\Metadata\AudioFile\{8e7200cc-69bc-46f6-a554-ed251f94fc50}.xml" />
+    <None Include="Assets\Sound\DexterousBall2\Metadata\AudioFile\{8fdb4c49-075f-4411-8840-dbe59f38585e}.xml" />
+    <None Include="Assets\Sound\DexterousBall2\Metadata\AudioFile\{938e74ab-86bc-4ea2-834d-2d14f952882d}.xml" />
+    <None Include="Assets\Sound\DexterousBall2\Metadata\AudioFile\{948e9356-a458-4b76-93d2-a8f81a187e64}.xml" />
+    <None Include="Assets\Sound\DexterousBall2\Metadata\AudioFile\{9671025a-5ca0-4204-b7eb-2483564c05d9}.xml" />
+    <None Include="Assets\Sound\DexterousBall2\Metadata\AudioFile\{9760d5f3-0818-48cd-8540-64f1ae5ecefd}.xml" />
+    <None Include="Assets\Sound\DexterousBall2\Metadata\AudioFile\{9991dd25-43d5-4f0a-a650-4db7d5591abc}.xml" />
+    <None Include="Assets\Sound\DexterousBall2\Metadata\AudioFile\{99eb4333-a678-4d1d-818e-b3dcb3cf92a1}.xml" />
+    <None Include="Assets\Sound\DexterousBall2\Metadata\AudioFile\{9c3de376-4d8a-4596-a979-5ac96b91391e}.xml" />
+    <None Include="Assets\Sound\DexterousBall2\Metadata\AudioFile\{9f4cebe5-2e5c-48f9-9593-da648a0f4bf4}.xml" />
+    <None Include="Assets\Sound\DexterousBall2\Metadata\AudioFile\{a1065c18-accb-4799-b93d-a1cea51e9c5b}.xml" />
+    <None Include="Assets\Sound\DexterousBall2\Metadata\AudioFile\{a2723e28-d980-4820-9283-10a382d0f0a3}.xml" />
+    <None Include="Assets\Sound\DexterousBall2\Metadata\AudioFile\{a5dccf22-0ff0-4598-81a6-a7a1c7e63f51}.xml" />
+    <None Include="Assets\Sound\DexterousBall2\Metadata\AudioFile\{aaf46777-b289-4348-bf6b-29862ab3ca14}.xml" />
+    <None Include="Assets\Sound\DexterousBall2\Metadata\AudioFile\{ad932243-d095-4a8a-bb29-952c78a44b0b}.xml" />
+    <None Include="Assets\Sound\DexterousBall2\Metadata\AudioFile\{ae2e1fce-4381-4688-b7aa-f63cf6015149}.xml" />
+    <None Include="Assets\Sound\DexterousBall2\Metadata\AudioFile\{b80957c4-0071-4cc4-8ee9-27853dda8f12}.xml" />
+    <None Include="Assets\Sound\DexterousBall2\Metadata\AudioFile\{b80a1573-7864-4b79-87c9-a708f5bbc120}.xml" />
+    <None Include="Assets\Sound\DexterousBall2\Metadata\AudioFile\{b90512ae-1747-4865-b630-a19d6cd49da3}.xml" />
+    <None Include="Assets\Sound\DexterousBall2\Metadata\AudioFile\{bd0409b3-25fb-4180-b363-8c95983d38f2}.xml" />
+    <None Include="Assets\Sound\DexterousBall2\Metadata\AudioFile\{bd96c2db-b2ff-422f-a08d-2cc2ce991549}.xml" />
+    <None Include="Assets\Sound\DexterousBall2\Metadata\AudioFile\{bdbf1232-03f8-4827-b4fe-54294e805e14}.xml" />
+    <None Include="Assets\Sound\DexterousBall2\Metadata\AudioFile\{bfd06022-d147-4932-976f-73aaf37515b3}.xml" />
+    <None Include="Assets\Sound\DexterousBall2\Metadata\AudioFile\{c0a81ac5-a832-4310-a82d-b23b87f3d79d}.xml" />
+    <None Include="Assets\Sound\DexterousBall2\Metadata\AudioFile\{c18ff79f-3f5e-427b-bd56-7ffaf387f86e}.xml" />
+    <None Include="Assets\Sound\DexterousBall2\Metadata\AudioFile\{c302873f-6b98-4637-945f-acac8bf4a715}.xml" />
+    <None Include="Assets\Sound\DexterousBall2\Metadata\AudioFile\{c7437832-33e6-4824-9a6d-7996f5934670}.xml" />
+    <None Include="Assets\Sound\DexterousBall2\Metadata\AudioFile\{cf253cd6-a889-4ba7-b0ed-0c95242cc5af}.xml" />
+    <None Include="Assets\Sound\DexterousBall2\Metadata\AudioFile\{cf929251-0893-494a-bc33-944768b8fa0e}.xml" />
+    <None Include="Assets\Sound\DexterousBall2\Metadata\AudioFile\{d00cef5b-4bf9-45c6-b816-5af7452af908}.xml" />
+    <None Include="Assets\Sound\DexterousBall2\Metadata\AudioFile\{d1195b2a-08c4-496b-abdb-8eb5af732804}.xml" />
+    <None Include="Assets\Sound\DexterousBall2\Metadata\AudioFile\{da5ce85f-a297-4942-8dcd-62810b0abd72}.xml" />
+    <None Include="Assets\Sound\DexterousBall2\Metadata\AudioFile\{dc272d72-f516-4d0c-9fd8-e33d470929a3}.xml" />
+    <None Include="Assets\Sound\DexterousBall2\Metadata\AudioFile\{de689059-5d52-4ee1-a6d5-aadc27a0afff}.xml" />
+    <None Include="Assets\Sound\DexterousBall2\Metadata\AudioFile\{e2de4573-3093-4c67-8884-750df3f4a152}.xml" />
+    <None Include="Assets\Sound\DexterousBall2\Metadata\AudioFile\{e6ba75f3-238a-4e50-921c-bafb08ad43d7}.xml" />
+    <None Include="Assets\Sound\DexterousBall2\Metadata\AudioFile\{e6f6c80f-0f9a-48a6-9db7-f30ecf6473af}.xml" />
+    <None Include="Assets\Sound\DexterousBall2\Metadata\AudioFile\{e9d9c720-8f37-4e55-9fa7-aba23c5edc42}.xml" />
+    <None Include="Assets\Sound\DexterousBall2\Metadata\AudioFile\{ee748c28-958f-4792-999b-1ffc828b82a2}.xml" />
+    <None Include="Assets\Sound\DexterousBall2\Metadata\AudioFile\{f63ad48d-3e06-4e02-8ebc-2b42a93cbada}.xml" />
+    <None Include="Assets\Sound\DexterousBall2\Metadata\AudioFile\{f67f4d25-c0d2-46f2-a995-36aedf201692}.xml" />
+    <None Include="Assets\Sound\DexterousBall2\Metadata\AudioFile\{f7ff8d32-7e49-494f-8df1-cfc65a39bc39}.xml" />
+    <None Include="Assets\Sound\DexterousBall2\Metadata\AudioFile\{f8e453f1-3315-4039-aa44-5a3493560976}.xml" />
+    <None Include="Assets\Sound\DexterousBall2\Metadata\AudioFile\{ff2357fa-0a48-4c7f-9ca1-be5453b7ef7a}.xml" />
+    <None Include="Assets\Sound\DexterousBall2\Metadata\AudioFile\{ff57f77f-0cb6-447a-a8d4-6ec80f09bece}.xml" />
+    <None Include="Assets\Sound\DexterousBall2\Metadata\Bank\{25a61da5-4819-4607-88af-af04635e90f7}.xml" />
+    <None Include="Assets\Sound\DexterousBall2\Metadata\Bank\{69a3e099-c6be-44de-b806-025bd31d2f94}.xml" />
+    <None Include="Assets\Sound\DexterousBall2\Metadata\Bank\{d513e0d4-0bc4-4577-88e8-c86504535e6b}.xml" />
+    <None Include="Assets\Sound\DexterousBall2\Metadata\BankFolder\{9d040132-21e2-497c-9cde-a70e54d24f6c}.xml" />
+    <None Include="Assets\Sound\DexterousBall2\Metadata\EffectPresetFolder\{0927f8f0-8ba8-4e8f-b91d-b81d6bf10590}.xml" />
+    <None Include="Assets\Sound\DexterousBall2\Metadata\EncodingSetting\{5ed0d4c2-3986-48e0-80a6-4e8fcac75f96}.xml" />
+    <None Include="Assets\Sound\DexterousBall2\Metadata\Event\{0468b35e-25f2-4114-8144-0702ab1ffa12}.xml" />
+    <None Include="Assets\Sound\DexterousBall2\Metadata\Event\{0ae81f8b-f2b2-4b96-93ac-1a1c7f734739}.xml" />
+    <None Include="Assets\Sound\DexterousBall2\Metadata\Event\{0d4a2681-7b16-454f-91c0-019877490d70}.xml" />
+    <None Include="Assets\Sound\DexterousBall2\Metadata\Event\{13499227-c6e0-4187-9889-2c65a231f452}.xml" />
+    <None Include="Assets\Sound\DexterousBall2\Metadata\Event\{134b62e4-e020-43b4-90b7-80469f4577ad}.xml" />
+    <None Include="Assets\Sound\DexterousBall2\Metadata\Event\{23efe080-8c3b-4ba4-8737-be8057ee6a8d}.xml" />
+    <None Include="Assets\Sound\DexterousBall2\Metadata\Event\{286034a1-a738-4adc-a3cb-c60a4d98acde}.xml" />
+    <None Include="Assets\Sound\DexterousBall2\Metadata\Event\{2c1c74c8-374a-44cb-9727-5d9a8d2f38e0}.xml" />
+    <None Include="Assets\Sound\DexterousBall2\Metadata\Event\{3143faa6-0f6c-4e26-8757-a41903797068}.xml" />
+    <None Include="Assets\Sound\DexterousBall2\Metadata\Event\{43659ff4-2ab3-48b6-b4a0-a49627ab5a67}.xml" />
+    <None Include="Assets\Sound\DexterousBall2\Metadata\Event\{45ccad9f-e7fb-4f77-8a09-47cd3ae104f1}.xml" />
+    <None Include="Assets\Sound\DexterousBall2\Metadata\Event\{45e585a8-50c2-404a-a47c-b6572ec336e4}.xml" />
+    <None Include="Assets\Sound\DexterousBall2\Metadata\Event\{495f4f21-14dd-42db-931f-e039418a2f87}.xml" />
+    <None Include="Assets\Sound\DexterousBall2\Metadata\Event\{4d928666-8288-4eab-bb27-a7b166c983bd}.xml" />
+    <None Include="Assets\Sound\DexterousBall2\Metadata\Event\{4eabae5a-e19c-43e9-8fbd-8b10010b4087}.xml" />
+    <None Include="Assets\Sound\DexterousBall2\Metadata\Event\{570aa770-bfc2-4f9e-af59-a0f353f267fc}.xml" />
+    <None Include="Assets\Sound\DexterousBall2\Metadata\Event\{5a7d40b0-02f6-45fe-a668-a88007a30a40}.xml" />
+    <None Include="Assets\Sound\DexterousBall2\Metadata\Event\{5db164f1-f916-4cf3-b7a9-cbfbd70e261b}.xml" />
+    <None Include="Assets\Sound\DexterousBall2\Metadata\Event\{5f5700aa-de85-4d3b-9100-bc29f5fbc66e}.xml" />
+    <None Include="Assets\Sound\DexterousBall2\Metadata\Event\{6552e7a4-eeba-418f-805b-db0409f0ecb1}.xml" />
+    <None Include="Assets\Sound\DexterousBall2\Metadata\Event\{6990965d-4521-4013-b1e1-3e647255d8e5}.xml" />
+    <None Include="Assets\Sound\DexterousBall2\Metadata\Event\{6ae2ff72-199f-48c3-9568-a4d4be6df471}.xml" />
+    <None Include="Assets\Sound\DexterousBall2\Metadata\Event\{71371561-5f6d-4251-9d48-6934a115cd41}.xml" />
+    <None Include="Assets\Sound\DexterousBall2\Metadata\Event\{74ee9492-8d94-4638-8df3-dc4786176410}.xml" />
+    <None Include="Assets\Sound\DexterousBall2\Metadata\Event\{7a39f6c5-799a-4d36-9112-8588f837eabc}.xml" />
+    <None Include="Assets\Sound\DexterousBall2\Metadata\Event\{7c79edb0-d60d-4eb3-8ab1-765fd771db0e}.xml" />
+    <None Include="Assets\Sound\DexterousBall2\Metadata\Event\{8627bcae-a09b-48e9-bb2c-8078a8de72c9}.xml" />
+    <None Include="Assets\Sound\DexterousBall2\Metadata\Event\{875279c9-9475-450e-9f85-ce3e7c90387f}.xml" />
+    <None Include="Assets\Sound\DexterousBall2\Metadata\Event\{8d1efdc0-29b5-484d-b4ec-f2fc55443b93}.xml" />
+    <None Include="Assets\Sound\DexterousBall2\Metadata\Event\{95fe7f60-2bb9-4b59-a4c5-7acb0b6dccbc}.xml" />
+    <None Include="Assets\Sound\DexterousBall2\Metadata\Event\{97f7d881-39d6-453c-b71d-c338955d43ab}.xml" />
+    <None Include="Assets\Sound\DexterousBall2\Metadata\Event\{a5521d95-7670-4cc3-979b-d23555c26b3e}.xml" />
+    <None Include="Assets\Sound\DexterousBall2\Metadata\Event\{a6bee829-cf7d-4757-8cd3-19914cff5ef9}.xml" />
+    <None Include="Assets\Sound\DexterousBall2\Metadata\Event\{b59574a8-8276-427c-9e04-205cddbafbc5}.xml" />
+    <None Include="Assets\Sound\DexterousBall2\Metadata\Event\{ca079047-7e87-4200-b732-a683b58f2133}.xml" />
+    <None Include="Assets\Sound\DexterousBall2\Metadata\Event\{d461bf3b-909c-4802-8176-b56099ae6919}.xml" />
+    <None Include="Assets\Sound\DexterousBall2\Metadata\Event\{d72f6507-7f6d-4c5b-89e4-41003e47b840}.xml" />
+    <None Include="Assets\Sound\DexterousBall2\Metadata\Event\{f6fd8e32-df6f-405c-9e66-da309855bf41}.xml" />
+    <None Include="Assets\Sound\DexterousBall2\Metadata\Event\{f9a900df-e1c1-4e37-98f2-de8beae12c67}.xml" />
+    <None Include="Assets\Sound\DexterousBall2\Metadata\EventFolder\{219bac78-238f-4496-a14f-1b22267d0821}.xml" />
+    <None Include="Assets\Sound\DexterousBall2\Metadata\EventFolder\{2f400e11-15b2-4281-84f6-66dfb3bf9d30}.xml" />
+    <None Include="Assets\Sound\DexterousBall2\Metadata\EventFolder\{46d83446-ce5b-4a76-9545-5d7c7e4ed058}.xml" />
+    <None Include="Assets\Sound\DexterousBall2\Metadata\EventFolder\{590ec242-9197-4c62-9db6-c36f95b265ff}.xml" />
+    <None Include="Assets\Sound\DexterousBall2\Metadata\EventFolder\{5c631371-dda0-4a58-a66d-154d1fc666e2}.xml" />
+    <None Include="Assets\Sound\DexterousBall2\Metadata\EventFolder\{7efbaeaf-766e-4c06-88aa-e4c7b0eee7af}.xml" />
+    <None Include="Assets\Sound\DexterousBall2\Metadata\EventFolder\{80a70205-1b1d-4487-b2d1-bb4961e7e784}.xml" />
+    <None Include="Assets\Sound\DexterousBall2\Metadata\EventFolder\{8a67af62-0f88-4e9f-bde7-ff4bdc4e8080}.xml" />
+    <None Include="Assets\Sound\DexterousBall2\Metadata\EventFolder\{99c95487-58fb-49fa-a3f1-c505f59048a9}.xml" />
+    <None Include="Assets\Sound\DexterousBall2\Metadata\EventFolder\{c69313c4-0653-4df6-a83c-07ae11739e33}.xml" />
+    <None Include="Assets\Sound\DexterousBall2\Metadata\EventFolder\{dcf28604-032e-4f5b-8d1e-6a810df88276}.xml" />
+    <None Include="Assets\Sound\DexterousBall2\Metadata\EventFolder\{f0780ae3-5356-44bf-820a-519a5d1ecfe2}.xml" />
+    <None Include="Assets\Sound\DexterousBall2\Metadata\Group\{4aedb4bb-4d7e-4e70-baed-356c6cae52df}.xml" />
+    <None Include="Assets\Sound\DexterousBall2\Metadata\Group\{4e926317-4c86-4ec4-940a-7d3fbd21960e}.xml" />
+    <None Include="Assets\Sound\DexterousBall2\Metadata\Group\{6509c94c-d7fd-4e98-a281-2a7b6c3fb275}.xml" />
+    <None Include="Assets\Sound\DexterousBall2\Metadata\Group\{6ad30d66-c675-44e2-b6ba-5476550d8aa8}.xml" />
+    <None Include="Assets\Sound\DexterousBall2\Metadata\Group\{75a9830a-4f4d-431a-97b6-3eea51f8da85}.xml" />
+    <None Include="Assets\Sound\DexterousBall2\Metadata\Group\{8681d9b4-a74f-4288-9f6c-1d022286fe05}.xml" />
+    <None Include="Assets\Sound\DexterousBall2\Metadata\Group\{931abcc3-3a8a-418a-b1b3-c113eef24054}.xml" />
+    <None Include="Assets\Sound\DexterousBall2\Metadata\Group\{a6c0da8a-95af-4756-95a7-3f1282021c5f}.xml" />
+    <None Include="Assets\Sound\DexterousBall2\Metadata\Group\{c31e2e13-7a02-44d7-871f-fdaf0cc61bf7}.xml" />
+    <None Include="Assets\Sound\DexterousBall2\Metadata\Group\{ccf9e74a-24a6-49cc-b5af-4a511fb3ea57}.xml" />
+    <None Include="Assets\Sound\DexterousBall2\Metadata\Group\{cd8d7c27-f4b2-410f-b31e-faad51d38f56}.xml" />
+    <None Include="Assets\Sound\DexterousBall2\Metadata\Group\{fa36bd8b-6a3a-401f-8122-3bfc6884b1f8}.xml" />
+    <None Include="Assets\Sound\DexterousBall2\Metadata\Master.xml" />
+    <None Include="Assets\Sound\DexterousBall2\Metadata\Mixer.xml" />
+    <None Include="Assets\Sound\DexterousBall2\Metadata\MixerView\{252cdfdf-77cb-4d00-bbe3-c7d5709dc145}.xml" />
+    <None Include="Assets\Sound\DexterousBall2\Metadata\MixerView\{7f8590db-7967-4295-a7b0-83536137d580}.xml" />
+    <None Include="Assets\Sound\DexterousBall2\Metadata\MixerView\{8bf66b1a-8f82-471e-b17a-42f7d3ac99df}.xml" />
+    <None Include="Assets\Sound\DexterousBall2\Metadata\ParameterPreset\{40813ddb-bac2-4ad3-9442-f26c4563fef6}.xml" />
+    <None Include="Assets\Sound\DexterousBall2\Metadata\ParameterPreset\{4f3ed550-3423-47b9-bd49-afa75f33d4fb}.xml" />
+    <None Include="Assets\Sound\DexterousBall2\Metadata\ParameterPreset\{c88e33d0-ce8e-4d96-b795-1cc3adee4e6e}.xml" />
+    <None Include="Assets\Sound\DexterousBall2\Metadata\ParameterPresetFolder\{816d5f65-c176-4597-aad3-836e022369be}.xml" />
+    <None Include="Assets\Sound\DexterousBall2\Metadata\Platform\{487f87b6-7c7b-4c79-bf39-47e5c4480498}.xml" />
+    <None Include="Assets\Sound\DexterousBall2\Metadata\Return\{2c2c34ef-7877-48a4-a47a-1fab0866ee1f}.xml" />
+    <None Include="Assets\Sound\DexterousBall2\Metadata\Snapshot\{8535aa7e-deab-4351-9b3a-d4fc43b2eefa}.xml" />
+    <None Include="Assets\Sound\DexterousBall2\Metadata\Snapshot\{b4374714-a297-40b0-8f52-66803f2ea15a}.xml" />
+    <None Include="Assets\Sound\DexterousBall2\Metadata\Snapshot\{fccc3810-4c58-4536-b894-ebb0d38e0678}.xml" />
+    <None Include="Assets\Sound\DexterousBall2\Metadata\SnapshotGroup\{cb2356f6-40ba-425d-aa2f-3deca4977f14}.xml" />
+    <None Include="Assets\Sound\DexterousBall2\Metadata\Tags.xml" />
+    <None Include="Assets\Sound\DexterousBall2\Metadata\VCA\{07a96acf-2b50-4032-95ec-415c0f15f034}.xml" />
+    <None Include="Assets\Sound\DexterousBall2\Metadata\VCA\{76ed7c05-7156-4387-87e1-4e51a4570b1b}.xml" />
+    <None Include="Assets\Sound\DexterousBall2\Metadata\Workspace.xml" />
+    <None Include="Assets\Ultimate Game Tools\ConcaveCollider\1st readme - v1.23.txt" />
+    <None Include="Assets\Ultimate Game Tools\Fracturing\!Readme - v1.24.txt" />
+    <None Include="Assets\Ultimate Game Tools\MeshCombiner\!Readme - v1.02.txt" />
+    <None Include="Assets\UnityAds\link.xml" />
+    <None Include="Packages\com.unity.package-manager-ui\Editor\Resources\Styles\Main_Dark.uss" />
+    <None Include="Packages\com.unity.package-manager-ui\Editor\Resources\Styles\Main_Light.uss" />
+    <None Include="Packages\com.unity.package-manager-ui\Editor\Resources\Templates\Alert.uxml" />
+    <None Include="Packages\com.unity.package-manager-ui\Editor\Resources\Templates\PackageDetails.uxml" />
+    <None Include="Packages\com.unity.package-manager-ui\Editor\Resources\Templates\PackageGroup.uxml" />
+    <None Include="Packages\com.unity.package-manager-ui\Editor\Resources\Templates\PackageItem.uxml" />
+    <None Include="Packages\com.unity.package-manager-ui\Editor\Resources\Templates\PackageList.uxml" />
+    <None Include="Packages\com.unity.package-manager-ui\Editor\Resources\Templates\PackageManagerWindow.uxml" />
+    <None Include="Packages\com.unity.package-manager-ui\Editor\Resources\Templates\PackageSearchFilterTabs.uxml" />
+    <None Include="Packages\com.unity.package-manager-ui\Editor\Resources\Templates\PackagesLoading.uxml" />
+    <None Include="Packages\com.unity.postprocessing\PostProcessing\Shaders\ACES.hlsl" />
+    <None Include="Packages\com.unity.postprocessing\PostProcessing\Shaders\API\D3D11.hlsl" />
+    <None Include="Packages\com.unity.postprocessing\PostProcessing\Shaders\API\D3D12.hlsl" />
+    <None Include="Packages\com.unity.postprocessing\PostProcessing\Shaders\API\D3D9.hlsl" />
+    <None Include="Packages\com.unity.postprocessing\PostProcessing\Shaders\API\Metal.hlsl" />
+    <None Include="Packages\com.unity.postprocessing\PostProcessing\Shaders\API\OpenGL.hlsl" />
+    <None Include="Packages\com.unity.postprocessing\PostProcessing\Shaders\API\PSP2.hlsl" />
+    <None Include="Packages\com.unity.postprocessing\PostProcessing\Shaders\API\PSSL.hlsl" />
+    <None Include="Packages\com.unity.postprocessing\PostProcessing\Shaders\API\Switch.hlsl" />
+    <None Include="Packages\com.unity.postprocessing\PostProcessing\Shaders\API\Vulkan.hlsl" />
+    <None Include="Packages\com.unity.postprocessing\PostProcessing\Shaders\API\XboxOne.hlsl" />
+    <None Include="Packages\com.unity.postprocessing\PostProcessing\Shaders\Builtins\AutoExposure.compute" />
+    <None Include="Packages\com.unity.postprocessing\PostProcessing\Shaders\Builtins\Bloom.shader" />
+    <None Include="Packages\com.unity.postprocessing\PostProcessing\Shaders\Builtins\Copy.shader" />
+    <None Include="Packages\com.unity.postprocessing\PostProcessing\Shaders\Builtins\CopyStd.shader" />
+    <None Include="Packages\com.unity.postprocessing\PostProcessing\Shaders\Builtins\DeferredFog.shader" />
+    <None Include="Packages\com.unity.postprocessing\PostProcessing\Shaders\Builtins\DepthOfField.hlsl" />
+    <None Include="Packages\com.unity.postprocessing\PostProcessing\Shaders\Builtins\DepthOfField.shader" />
+    <None Include="Packages\com.unity.postprocessing\PostProcessing\Shaders\Builtins\DiscardAlpha.shader" />
+    <None Include="Packages\com.unity.postprocessing\PostProcessing\Shaders\Builtins\DiskKernels.hlsl" />
+    <None Include="Packages\com.unity.postprocessing\PostProcessing\Shaders\Builtins\Distortion.hlsl" />
+    <None Include="Packages\com.unity.postprocessing\PostProcessing\Shaders\Builtins\Dithering.hlsl" />
+    <None Include="Packages\com.unity.postprocessing\PostProcessing\Shaders\Builtins\ExposureHistogram.compute" />
+    <None Include="Packages\com.unity.postprocessing\PostProcessing\Shaders\Builtins\ExposureHistogram.hlsl" />
+    <None Include="Packages\com.unity.postprocessing\PostProcessing\Shaders\Builtins\FastApproximateAntialiasing.hlsl" />
+    <None Include="Packages\com.unity.postprocessing\PostProcessing\Shaders\Builtins\FinalPass.shader" />
+    <None Include="Packages\com.unity.postprocessing\PostProcessing\Shaders\Builtins\Fog.hlsl" />
+    <None Include="Packages\com.unity.postprocessing\PostProcessing\Shaders\Builtins\GaussianDownsample.compute" />
+    <None Include="Packages\com.unity.postprocessing\PostProcessing\Shaders\Builtins\GrainBaker.shader" />
+    <None Include="Packages\com.unity.postprocessing\PostProcessing\Shaders\Builtins\Lut2DBaker.shader" />
+    <None Include="Packages\com.unity.postprocessing\PostProcessing\Shaders\Builtins\Lut3DBaker.compute" />
+    <None Include="Packages\com.unity.postprocessing\PostProcessing\Shaders\Builtins\MotionBlur.shader" />
+    <None Include="Packages\com.unity.postprocessing\PostProcessing\Shaders\Builtins\MultiScaleVO.shader" />
+    <None Include="Packages\com.unity.postprocessing\PostProcessing\Shaders\Builtins\MultiScaleVODownsample1.compute" />
+    <None Include="Packages\com.unity.postprocessing\PostProcessing\Shaders\Builtins\MultiScaleVODownsample2.compute" />
+    <None Include="Packages\com.unity.postprocessing\PostProcessing\Shaders\Builtins\MultiScaleVORender.compute" />
+    <None Include="Packages\com.unity.postprocessing\PostProcessing\Shaders\Builtins\MultiScaleVOUpsample.compute" />
+    <None Include="Packages\com.unity.postprocessing\PostProcessing\Shaders\Builtins\ScalableAO.hlsl" />
+    <None Include="Packages\com.unity.postprocessing\PostProcessing\Shaders\Builtins\ScalableAO.shader" />
+    <None Include="Packages\com.unity.postprocessing\PostProcessing\Shaders\Builtins\ScreenSpaceReflections.hlsl" />
+    <None Include="Packages\com.unity.postprocessing\PostProcessing\Shaders\Builtins\ScreenSpaceReflections.shader" />
+    <None Include="Packages\com.unity.postprocessing\PostProcessing\Shaders\Builtins\SubpixelMorphologicalAntialiasing.hlsl" />
+    <None Include="Packages\com.unity.postprocessing\PostProcessing\Shaders\Builtins\SubpixelMorphologicalAntialiasing.shader" />
+    <None Include="Packages\com.unity.postprocessing\PostProcessing\Shaders\Builtins\SubpixelMorphologicalAntialiasingBridge.hlsl" />
+    <None Include="Packages\com.unity.postprocessing\PostProcessing\Shaders\Builtins\TemporalAntialiasing.shader" />
+    <None Include="Packages\com.unity.postprocessing\PostProcessing\Shaders\Builtins\Texture2DLerp.shader" />
+    <None Include="Packages\com.unity.postprocessing\PostProcessing\Shaders\Builtins\Texture3DLerp.compute" />
+    <None Include="Packages\com.unity.postprocessing\PostProcessing\Shaders\Builtins\Uber.shader" />
+    <None Include="Packages\com.unity.postprocessing\PostProcessing\Shaders\Colors.hlsl" />
+    <None Include="Packages\com.unity.postprocessing\PostProcessing\Shaders\Debug\Histogram.compute" />
+    <None Include="Packages\com.unity.postprocessing\PostProcessing\Shaders\Debug\Histogram.shader" />
+    <None Include="Packages\com.unity.postprocessing\PostProcessing\Shaders\Debug\LightMeter.shader" />
+    <None Include="Packages\com.unity.postprocessing\PostProcessing\Shaders\Debug\Overlays.shader" />
+    <None Include="Packages\com.unity.postprocessing\PostProcessing\Shaders\Debug\Vectorscope.compute" />
+    <None Include="Packages\com.unity.postprocessing\PostProcessing\Shaders\Debug\Vectorscope.shader" />
+    <None Include="Packages\com.unity.postprocessing\PostProcessing\Shaders\Debug\Waveform.compute" />
+    <None Include="Packages\com.unity.postprocessing\PostProcessing\Shaders\Debug\Waveform.shader" />
+    <None Include="Packages\com.unity.postprocessing\PostProcessing\Shaders\Editor\ConvertToLog.shader" />
+    <None Include="Packages\com.unity.postprocessing\PostProcessing\Shaders\Editor\CurveGrid.shader" />
+    <None Include="Packages\com.unity.postprocessing\PostProcessing\Shaders\Editor\Trackball.shader" />
+    <None Include="Packages\com.unity.postprocessing\PostProcessing\Shaders\Sampling.hlsl" />
+    <None Include="Packages\com.unity.postprocessing\PostProcessing\Shaders\StdLib.hlsl" />
+    <None Include="Packages\com.unity.postprocessing\PostProcessing\Shaders\xRLib.hlsl" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Target Name="GenerateTargetFrameworkMonikerAttribute" />
+</Project>

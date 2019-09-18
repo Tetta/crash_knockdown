@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.10.00">
+    <object class="UiMixerView" id="{8bf66b1a-8f82-471e-b17a-42f7d3ac99df}">
+        <property name="name">
+            <value>Music</value>
+        </property>
+        <relationship name="assignedStrips">
+            <destination>{6509c94c-d7fd-4e98-a281-2a7b6c3fb275}</destination>
+            <destination>{ecfaf7b8-45a9-4d8c-893d-cbf3c15244f0}</destination>
+            <destination>{d14b3f06-954d-449f-8243-f86342d794af}</destination>
+            <destination>{6f5d28f0-abc8-4ece-8b3e-84100eefa690}</destination>
+            <destination>{067a6e45-c7c5-4602-965a-7c9fe6bbd8e7}</destination>
+            <destination>{85cd6121-6bbf-451b-ba01-8810eef1ff2f}</destination>
+            <destination>{fa36bd8b-6a3a-401f-8122-3bfc6884b1f8}</destination>
+            <destination>{4aedb4bb-4d7e-4e70-baed-356c6cae52df}</destination>
+            <destination>{7b7cd138-ed0a-41ef-ba8e-b140c74321c1}</destination>
+            <destination>{19a92342-6223-406f-bee4-4f9f4bf52b99}</destination>
+            <destination>{d29cca4f-7c64-4e7a-8e06-43a7a507dbe0}</destination>
+        </relationship>
+        <relationship name="mixer">
+            <destination>{ac956028-37b3-4934-958e-1920bd58f660}</destination>
+        </relationship>
+    </object>
+</objects>

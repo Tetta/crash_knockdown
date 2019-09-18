@@ -1,0 +1,59 @@
+{2c1c74c8-374a-44cb-9727-5d9a8d2f38e0} event:/Gameplay/5_stadies/1_Encouragement
+{6990965d-4521-4013-b1e1-3e647255d8e5} event:/Gameplay/5_stadies/2_Encouragement
+{95fe7f60-2bb9-4b59-a4c5-7acb0b6dccbc} event:/Gameplay/5_stadies/3_Encouragement
+{f9a900df-e1c1-4e37-98f2-de8beae12c67} event:/Gameplay/5_stadies/4_Encouragement
+{0d4a2681-7b16-454f-91c0-019877490d70} event:/Gameplay/5_stadies/5_Encouragement
+{7a39f6c5-799a-4d36-9112-8588f837eabc} event:/Gameplay/Destruction/12354/EasyGlass
+{13499227-c6e0-4187-9889-2c65a231f452} event:/Gameplay/Destruction/12354/MiddleGlass
+{495f4f21-14dd-42db-931f-e039418a2f87} event:/Gameplay/Destruction/12354/StrongGlass
+{5db164f1-f916-4cf3-b7a9-cbfbd70e261b} event:/Gameplay/Destruction/Glass
+{286034a1-a738-4adc-a3cb-c60a4d98acde} event:/Gameplay/Destruction/Slowmotion
+{8627bcae-a09b-48e9-bb2c-8078a8de72c9} event:/Gameplay/Fall/Ball
+{0468b35e-25f2-4114-8144-0702ab1ffa12} event:/Gameplay/Fall/Glass
+{97f7d881-39d6-453c-b71d-c338955d43ab} event:/Gameplay/Fall/Metal
+{43659ff4-2ab3-48b6-b4a0-a49627ab5a67} event:/Gameplay/Fall/Organic
+{4eabae5a-e19c-43e9-8fbd-8b10010b4087} event:/Gameplay/Fall/Wood
+{5f5700aa-de85-4d3b-9100-bc29f5fbc66e} event:/Gameplay/Fall/Wooden_plank
+{7c79edb0-d60d-4eb3-8ab1-765fd771db0e} event:/Gameplay/Picking up/Metal
+{8d1efdc0-29b5-484d-b4ec-f2fc55443b93} event:/Gameplay/Picking up/Metal_Ball
+{5a7d40b0-02f6-45fe-a668-a88007a30a40} event:/Gameplay/Picking up/Organic
+{a6bee829-cf7d-4757-8cd3-19914cff5ef9} event:/Gameplay/Picking up/Wood
+{875279c9-9475-450e-9f85-ce3e7c90387f} event:/Gameplay/Appearance_of_a_star_lose_time
+{ca079047-7e87-4200-b732-a683b58f2133} event:/Gameplay/Throw
+{a5521d95-7670-4cc3-979b-d23555c26b3e} event:/Menu/Move_Board
+{6552e7a4-eeba-418f-805b-db0409f0ecb1} event:/Menu/TAP_button
+{4d928666-8288-4eab-bb27-a7b166c983bd} event:/Music/Kitchen/Fanfares_of_defeat
+{71371561-5f6d-4251-9d48-6934a115cd41} event:/Music/Kitchen/Fanfares_of_victory
+{b59574a8-8276-427c-9e04-205cddbafbc5} event:/Music/Kitchen/Music_gameplay
+{23efe080-8c3b-4ba4-8737-be8057ee6a8d} event:/Music/Menu/Music_menu
+{d461bf3b-909c-4802-8176-b56099ae6919} event:/Scoreboard/CONTINUE_button
+{45e585a8-50c2-404a-a47c-b6572ec336e4} event:/Scoreboard/Emergence_of_a_star_one
+{3143faa6-0f6c-4e26-8757-a41903797068} event:/Scoreboard/Emergence_of_a_star_three
+{f6fd8e32-df6f-405c-9e66-da309855bf41} event:/Scoreboard/Emergence_of_a_star_two
+{0ae81f8b-f2b2-4b96-93ac-1a1c7f734739} event:/Scoreboard/MENU_button
+{6ae2ff72-199f-48c3-9568-a4d4be6df471} event:/Scoreboard/RESTART_button
+{570aa770-bfc2-4f9e-af59-a0f353f267fc} event:/Scoreboard/Whoosh_scoreboard_down
+{45ccad9f-e7fb-4f77-8a09-47cd3ae104f1} event:/LoadingScoreBoard_window
+{d72f6507-7f6d-4c5b-89e4-41003e47b840} event:/Pause_window
+{532df408-dbab-4454-a14e-906e32c48972} bus:/
+{931abcc3-3a8a-418a-b1b3-c113eef24054} bus:/ButtonFX
+{cd8d7c27-f4b2-410f-b31e-faad51d38f56} bus:/Gameplay
+{6ad30d66-c675-44e2-b6ba-5476550d8aa8} bus:/Gameplay/Destruction
+{ccf9e74a-24a6-49cc-b5af-4a511fb3ea57} bus:/Gameplay/Encouragement
+{4e926317-4c86-4ec4-940a-7d3fbd21960e} bus:/Gameplay/Falling
+{75a9830a-4f4d-431a-97b6-3eea51f8da85} bus:/Gameplay/Picking_up
+{8681d9b4-a74f-4288-9f6c-1d022286fe05} bus:/MoveGUI
+{6509c94c-d7fd-4e98-a281-2a7b6c3fb275} bus:/Music
+{a6c0da8a-95af-4756-95a7-3f1282021c5f} bus:/MusicFXGameplay
+{4aedb4bb-4d7e-4e70-baed-356c6cae52df} bus:/ScoreboardMSFX
+{c31e2e13-7a02-44d7-871f-fdaf0cc61bf7} bus:/Tap
+{fa36bd8b-6a3a-401f-8122-3bfc6884b1f8} bus:/WinLose
+{2c2c34ef-7877-48a4-a47a-1fab0866ee1f} bus:/Reverb
+{76ed7c05-7156-4387-87e1-4e51a4570b1b} vca:/Music
+{07a96acf-2b50-4032-95ec-415c0f15f034} vca:/SFX
+{fccc3810-4c58-4536-b894-ebb0d38e0678} snapshot:/Loading_Scoreboard
+{8535aa7e-deab-4351-9b3a-d4fc43b2eefa} snapshot:/Pause
+{b4374714-a297-40b0-8f52-66803f2ea15a} snapshot:/Slowmotion
+{d513e0d4-0bc4-4577-88e8-c86504535e6b} bank:/Music
+{25a61da5-4819-4607-88af-af04635e90f7} bank:/SoundFX
+{69a3e099-c6be-44de-b806-025bd31d2f94} bank:/Master Bank

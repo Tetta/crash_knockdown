@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.10.00">
+    <object class="MixerGroup" id="{fa36bd8b-6a3a-401f-8122-3bfc6884b1f8}">
+        <property name="name">
+            <value>WinLose</value>
+        </property>
+        <relationship name="masters">
+            <destination>{76ed7c05-7156-4387-87e1-4e51a4570b1b}</destination>
+        </relationship>
+        <relationship name="effectChain">
+            <destination>{d7cfcec1-4105-49be-9a4d-52139eb5f091}</destination>
+        </relationship>
+        <relationship name="panner">
+            <destination>{09f21c73-dd70-4946-a3f5-010eb0a287fb}</destination>
+        </relationship>
+        <relationship name="output">
+            <destination>{532df408-dbab-4454-a14e-906e32c48972}</destination>
+        </relationship>
+    </object>
+    <object class="MixerBusEffectChain" id="{d7cfcec1-4105-49be-9a4d-52139eb5f091}">
+        <relationship name="effects">
+            <destination>{866f390d-270c-4e5c-a4ad-c02affa218ef}</destination>
+            <destination>{05ffd3d1-c335-4460-8210-f63d9e45369d}</destination>
+        </relationship>
+    </object>
+    <object class="MixerBusPanner" id="{09f21c73-dd70-4946-a3f5-010eb0a287fb}"/>
+    <object class="Sidechain" id="{866f390d-270c-4e5c-a4ad-c02affa218ef}">
+        <relationship name="targets">
+            <destination>{0e89e673-4188-427b-ac8d-61d2188905c5}</destination>
+        </relationship>
+    </object>
+    <object class="MixerBusFader" id="{05ffd3d1-c335-4460-8210-f63d9e45369d}"/>
+</objects>

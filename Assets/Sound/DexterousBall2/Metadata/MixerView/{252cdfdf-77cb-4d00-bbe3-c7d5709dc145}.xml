@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.10.00">
+    <object class="UiMixerView" id="{252cdfdf-77cb-4d00-bbe3-c7d5709dc145}">
+        <property name="name">
+            <value>Scoreboard</value>
+        </property>
+        <relationship name="assignedStrips">
+            <destination>{c31e2e13-7a02-44d7-871f-fdaf0cc61bf7}</destination>
+            <destination>{1d7287eb-bc0e-4b0d-8121-f785a82ae4b2}</destination>
+            <destination>{c65c96d8-e772-4eca-95d1-50965d2baf1e}</destination>
+            <destination>{5896e531-3044-4990-939b-9fb0606e80a3}</destination>
+            <destination>{ed111ff7-32e0-4877-b48b-92855f58a01c}</destination>
+            <destination>{931abcc3-3a8a-418a-b1b3-c113eef24054}</destination>
+            <destination>{8681d9b4-a74f-4288-9f6c-1d022286fe05}</destination>
+            <destination>{a8de8812-9f07-47fe-992a-c85324bf1c2e}</destination>
+            <destination>{f7bcc366-d6c8-4694-9583-dd694cebebb0}</destination>
+        </relationship>
+        <relationship name="mixer">
+            <destination>{ac956028-37b3-4934-958e-1920bd58f660}</destination>
+        </relationship>
+    </object>
+</objects>

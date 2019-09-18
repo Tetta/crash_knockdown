@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.10.00">
+    <object class="Snapshot" id="{b4374714-a297-40b0-8f52-66803f2ea15a}">
+        <property name="name">
+            <value>Slowmotion</value>
+        </property>
+        <relationship name="mixer">
+            <destination>{ac956028-37b3-4934-958e-1920bd58f660}</destination>
+        </relationship>
+        <relationship name="automatableProperties">
+            <destination>{48453187-1a2b-4da9-b87c-b4ed1f21d4b6}</destination>
+        </relationship>
+        <relationship name="markerTracks">
+            <destination>{842cb790-91c3-4b69-b1d3-9ca7e8121825}</destination>
+        </relationship>
+        <relationship name="timeline">
+            <destination>{c49e47e6-1ff5-4388-8ca7-9c7d6ef0e1e9}</destination>
+        </relationship>
+        <relationship name="snapshotMasterTrack">
+            <destination>{17265eed-a930-4b87-9f06-0af0e64e3f91}</destination>
+        </relationship>
+    </object>
+    <object class="EventAutomatableProperties" id="{48453187-1a2b-4da9-b87c-b4ed1f21d4b6}"/>
+    <object class="MarkerTrack" id="{842cb790-91c3-4b69-b1d3-9ca7e8121825}"/>
+    <object class="Timeline" id="{c49e47e6-1ff5-4388-8ca7-9c7d6ef0e1e9}"/>
+    <object class="SnapshotMasterTrack" id="{17265eed-a930-4b87-9f06-0af0e64e3f91}"/>
+</objects>
